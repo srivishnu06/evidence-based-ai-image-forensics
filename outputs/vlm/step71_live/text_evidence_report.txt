@@ -1,0 +1,11 @@
+CV AUTHENTICITY PREDICTION
+Authentic (AI probability: 0.0231; threshold: 0.5141). This is a model prediction, not independent verification of image origin.
+
+STAGE 2 ARTIFACT SIGNAL
+Highest-scoring category: Symbol / text inconsistency. Category probability: 0.9242. Category flagged: True. Candidate evidence regions: 1.
+
+VLM VISUAL OBSERVATION (UNVERIFIED)
+The text "Вна о Рна Га 2 Рм не е" appears to be inconsistent with the rest of the image, as it does not match the theme of the running athletes.
+
+EVIDENCE LIMITATIONS
+Artifact scores and highlighted regions are model estimates, not verified defects. Any VLM observation requires visual review. Neither an artifact prediction nor its explanation establishes image origin. Stage 1 predicts authentic even though Stage 2 flags a possible inconsistency. These are separate model outputs and should not be treated as a confirmed authenticity contradiction.

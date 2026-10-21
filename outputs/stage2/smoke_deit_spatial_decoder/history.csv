@@ -1,0 +1,2 @@
+epoch,train_loss,train_artifact_loss,train_localization_loss,val_loss,val_artifact_loss,val_localization_loss,val_artifact_macro_f1_at_0.5,val_artifact_micro_f1_at_0.5,val_localization_iou_at_0.5,val_localization_pixel_f1_at_0.5,learning_rate
+1,1.3944421156858786,1.1046252825321294,0.5796336715038006,1.380073953365934,1.1113244433333909,0.5374990243842637,0.3074150906004898,0.4189723320158103,0.04933998379550353,0.08832069248267904,0.0

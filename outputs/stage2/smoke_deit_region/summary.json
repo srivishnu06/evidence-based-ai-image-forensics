@@ -1,0 +1,139 @@
+{
+  "run_name": "smoke_deit_region",
+  "dataset_id": "e89e43f6109e4020aac0952af699531b",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_e89e43f6109e4020aac0952af699531b",
+  "split_method": "uid_group_shuffle_balanced",
+  "train_samples": 780,
+  "internal_val_samples": 138,
+  "best_epoch": 2,
+  "best_val_loss": 1.4326112995976987,
+  "best_spatial_ap": 0.05487271002679183,
+  "best_spatial_epoch": 2,
+  "best_spatial_checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/smoke_deit_region_best_spatial_ap.pt",
+  "artifact_thresholds": [
+    0.5646798014640808,
+    0.30253660678863525,
+    0.5432289838790894,
+    0.40803900361061096,
+    0.13993209600448608,
+    0.34288251399993896,
+    0.4359660744667053
+  ],
+  "localization_threshold": 0.1,
+  "tuned_artifact_metrics": {
+    "thresholds": [
+      0.5646798014640808,
+      0.30253660678863525,
+      0.5432289838790894,
+      0.40803900361061096,
+      0.13993209600448608,
+      0.34288251399993896,
+      0.4359660744667053
+    ],
+    "macro_precision": 0.28555412075121395,
+    "macro_recall": 0.8617488662131519,
+    "macro_f1": 0.40069339628583645,
+    "micro_precision": 0.327741935483871,
+    "micro_recall": 0.9694656488549618,
+    "micro_f1": 0.48987463837994216,
+    "weighted_precision": 0.45192446854851015,
+    "weighted_recall": 0.9694656488549618,
+    "weighted_f1": 0.5950389747430522,
+    "exact_match_accuracy": 0.0,
+    "hamming_loss": 0.5476190476190477,
+    "per_class_precision": [
+      0.6594202898550725,
+      0.3208955223880597,
+      0.06896551724137931,
+      0.28703703703703703,
+      0.49264705882352944,
+      0.09848484848484848,
+      0.07142857142857142
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      0.2857142857142857,
+      0.96875,
+      1.0,
+      1.0,
+      0.7777777777777778
+    ],
+    "per_class_f1": [
+      0.7947598253275109,
+      0.4858757062146893,
+      0.1111111111111111,
+      0.44285714285714284,
+      0.6600985221674877,
+      0.1793103448275862,
+      0.1308411214953271
+    ],
+    "per_class_support": [
+      91,
+      43,
+      7,
+      32,
+      67,
+      13,
+      9
+    ],
+    "map_macro": 0.2960288987446335,
+    "map_micro": 0.47242457169917973,
+    "map_weighted": 0.47716495727172425
+  },
+  "tuned_localization_metrics": {
+    "threshold": 0.1,
+    "mean_iou": 0.17927240573155973,
+    "mean_pixel_precision": 0.17931922312908563,
+    "mean_pixel_recall": 0.9986519050267093,
+    "mean_pixel_f1": 0.27181095572865943,
+    "pointing_accuracy": 0.16793893129770993,
+    "evaluated_artifact_instances": 262,
+    "per_class": [
+      {
+        "evaluated_instances": 91,
+        "mean_iou": 0.22000448531060776,
+        "mean_pixel_f1": 0.3213444173541539,
+        "pointing_accuracy": 0.17582417582417584
+      },
+      {
+        "evaluated_instances": 43,
+        "mean_iou": 0.176633287213543,
+        "mean_pixel_f1": 0.275418567612719,
+        "pointing_accuracy": 0.11627906976744186
+      },
+      {
+        "evaluated_instances": 7,
+        "mean_iou": 0.293731778425656,
+        "mean_pixel_f1": 0.4107804928542174,
+        "pointing_accuracy": 0.42857142857142855
+      },
+      {
+        "evaluated_instances": 32,
+        "mean_iou": 0.11415816326530615,
+        "mean_pixel_f1": 0.18813390582488018,
+        "pointing_accuracy": 0.125
+      },
+      {
+        "evaluated_instances": 67,
+        "mean_iou": 0.1748400852878465,
+        "mean_pixel_f1": 0.2665265251966854,
+        "pointing_accuracy": 0.23880597014925373
+      },
+      {
+        "evaluated_instances": 13,
+        "mean_iou": 0.08964094513545064,
+        "mean_pixel_f1": 0.15709558156695178,
+        "pointing_accuracy": 0.0
+      },
+      {
+        "evaluated_instances": 9,
+        "mean_iou": 0.08499212374500392,
+        "mean_pixel_f1": 0.14820686993442658,
+        "pointing_accuracy": 0.0
+      }
+    ]
+  },
+  "peak_gpu_memory_gb": 0.11509943008422852,
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/smoke_deit_region.pt"
+}

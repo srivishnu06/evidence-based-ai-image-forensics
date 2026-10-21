@@ -1,0 +1,16 @@
+{
+  "cv": {
+    "image_index": 5,
+    "stage1_ai_probability": 0.023071277886629105,
+    "stage1_threshold": 0.5141081809997559,
+    "stage2_artifact": "Symbol / text inconsistency",
+    "stage2_artifact_probability": 0.9242,
+    "stage2_artifact_threshold": 0.82,
+    "evidence_regions": 1,
+    "localization_threshold": 0.14
+  },
+  "vlm_observation": "The lettering near the top of the image appears to be distorted, making it difficult to read clearly. The text near the bottom is also somewhat distorted but still legible enough to discern some of the words.",
+  "generation_tokens": 43,
+  "generation_seconds": 5.505888654000046,
+  "human_review_required": true
+}

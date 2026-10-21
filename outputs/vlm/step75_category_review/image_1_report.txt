@@ -1,0 +1,11 @@
+CV AUTHENTICITY PREDICTION
+AI-generated (AI probability: 0.9293; threshold: 0.5141). This is a model prediction, not independent verification of image origin.
+
+STAGE 2 ARTIFACT SIGNAL
+Highest-scoring category: Symbol / text inconsistency. Category probability: 0.2119. Category flagged: False. Candidate evidence regions: 0.
+
+LOCALISATION WARNING
+The highest-scoring artifact does not have sufficient threshold-supported localised evidence. No VLM observation is presented as supporting evidence.
+
+EVIDENCE LIMITATIONS
+Artifact scores and highlighted regions are model estimates, not verified defects. Any VLM observation requires visual review. Neither an artifact prediction nor its explanation establishes image origin.

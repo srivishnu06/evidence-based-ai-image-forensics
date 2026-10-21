@@ -1,0 +1,11 @@
+CV AUTHENTICITY PREDICTION
+Authentic (AI probability: 0.0231; threshold: 0.5141). This is a model prediction, not verified origin.
+
+STAGE 2 ARTIFACT SIGNAL
+Symbol / text inconsistency (score: 0.9242; flagged: True). 1 candidate evidence region was extracted.
+
+VLM VISUAL OBSERVATION — UNVERIFIED
+The lettering near the top of the image appears to be distorted, making it difficult to read clearly. The text near the bottom is also somewhat distorted but still legible enough to discern some of the words.
+
+EVIDENCE LIMITATIONS
+The highlighted area is a model-estimated candidate anomaly, not independently verified ground truth. The VLM observation requires visual review. An apparent text inconsistency does not establish whether the image was AI-generated. The independent authenticity prediction remains unchanged.

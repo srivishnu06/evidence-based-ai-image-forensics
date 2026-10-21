@@ -1,0 +1,136 @@
+{
+  "run_name": "smoke_deit_spatial_decoder",
+  "dataset_id": "e89e43f6109e4020aac0952af699531b",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_e89e43f6109e4020aac0952af699531b",
+  "split_method": "uid_group_shuffle_balanced",
+  "train_samples": 780,
+  "internal_val_samples": 138,
+  "best_epoch": 1,
+  "best_val_loss": 1.380073953365934,
+  "artifact_thresholds": [
+    0.47783955931663513,
+    0.2751361131668091,
+    0.26349693536758423,
+    0.3667762279510498,
+    0.12149765342473984,
+    0.3089553415775299,
+    0.5748799443244934
+  ],
+  "localization_threshold": 0.1,
+  "tuned_artifact_metrics": {
+    "thresholds": [
+      0.47783955931663513,
+      0.2751361131668091,
+      0.26349693536758423,
+      0.3667762279510498,
+      0.12149765342473984,
+      0.3089553415775299,
+      0.5748799443244934
+    ],
+    "macro_precision": 0.2824816544975478,
+    "macro_recall": 0.9128483757844224,
+    "macro_f1": 0.39698700250184255,
+    "micro_precision": 0.30538922155688625,
+    "micro_recall": 0.9732824427480916,
+    "micro_f1": 0.4649042844120328,
+    "weighted_precision": 0.45006422271074464,
+    "weighted_recall": 0.9732824427480916,
+    "weighted_f1": 0.5924009052621482,
+    "exact_match_accuracy": 0.0,
+    "hamming_loss": 0.6076604554865425,
+    "per_class_precision": [
+      0.6594202898550725,
+      0.3181818181818182,
+      0.05185185185185185,
+      0.2767857142857143,
+      0.49264705882352944,
+      0.09848484848484848,
+      0.08
+    ],
+    "per_class_recall": [
+      1.0,
+      0.9767441860465116,
+      1.0,
+      0.96875,
+      1.0,
+      1.0,
+      0.4444444444444444
+    ],
+    "per_class_f1": [
+      0.7947598253275109,
+      0.48,
+      0.09859154929577464,
+      0.4305555555555556,
+      0.6600985221674877,
+      0.1793103448275862,
+      0.13559322033898305
+    ],
+    "per_class_support": [
+      91,
+      43,
+      7,
+      32,
+      67,
+      13,
+      9
+    ],
+    "map_macro": 0.28419729942938904,
+    "map_micro": 0.3984802706721081,
+    "map_weighted": 0.45952939381004865
+  },
+  "tuned_localization_metrics": {
+    "threshold": 0.1,
+    "mean_iou": 0.17921405203302693,
+    "mean_pixel_precision": 0.17921405203302693,
+    "mean_pixel_recall": 1.0,
+    "mean_pixel_f1": 0.2717324411596291,
+    "pointing_accuracy": 0.14885496183206107,
+    "evaluated_artifact_instances": 262,
+    "per_class": [
+      {
+        "evaluated_instances": 91,
+        "mean_iou": 0.22000448531060776,
+        "mean_pixel_f1": 0.3213444173541539,
+        "pointing_accuracy": 0.18681318681318682
+      },
+      {
+        "evaluated_instances": 43,
+        "mean_iou": 0.1760797342192691,
+        "mean_pixel_f1": 0.2745298715167037,
+        "pointing_accuracy": 0.09302325581395349
+      },
+      {
+        "evaluated_instances": 7,
+        "mean_iou": 0.293731778425656,
+        "mean_pixel_f1": 0.4107804928542174,
+        "pointing_accuracy": 0.2857142857142857
+      },
+      {
+        "evaluated_instances": 32,
+        "mean_iou": 0.11415816326530615,
+        "mean_pixel_f1": 0.18813390582488018,
+        "pointing_accuracy": 0.0625
+      },
+      {
+        "evaluated_instances": 67,
+        "mean_iou": 0.1748400852878465,
+        "mean_pixel_f1": 0.2665265251966854,
+        "pointing_accuracy": 0.19402985074626866
+      },
+      {
+        "evaluated_instances": 13,
+        "mean_iou": 0.08948194662480377,
+        "mean_pixel_f1": 0.15687615653103634,
+        "pointing_accuracy": 0.07692307692307693
+      },
+      {
+        "evaluated_instances": 9,
+        "mean_iou": 0.08616780045351474,
+        "mean_pixel_f1": 0.15048416332438347,
+        "pointing_accuracy": 0.0
+      }
+    ]
+  },
+  "peak_gpu_memory_gb": 0.11509943008422852,
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/smoke_deit_spatial_decoder.pt"
+}

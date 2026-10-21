@@ -1,0 +1,25 @@
+{
+  "verdict": "AI-generated",
+  "ai_probability": 0.9669132828712463,
+  "artifact_category": "Edge / shape inconsistency",
+  "artifact_score": 0.9620969295501709,
+  "evidence_review": {
+    "status": "UNVERIFIED CANDIDATE",
+    "has_candidate": true,
+    "selected_category": "Edge / shape inconsistency",
+    "selected_category_flagged": true,
+    "spatial_peak": 0.539247,
+    "localization_threshold": 0.14,
+    "cells_above_threshold": 49,
+    "fraction_above_threshold": 0.25,
+    "candidate_regions": 1,
+    "highest_spatial_peak_category": "Edge / shape inconsistency",
+    "highest_spatial_peak": 0.539247,
+    "summary": "The independent Stage 1 classifier predicts AI-generated with model score 0.9669 (threshold 0.5141). This is a prediction, not proven image origin. Stage 2's highest category score is Edge / shape inconsistency (0.9621; category threshold passed). The corresponding spatial map peaks at 0.539, with 49 of 196 grid cells at or above its localisation cutoff 0.14, and 1 extracted candidate region(s). Evidence status: UNVERIFIED CANDIDATE. Neither grid activation nor Qwen agreement establishes a visible defect, and Stage 2 regions do not explain which pixels the independent Stage 1 classifier actually used.",
+    "human_verified": false
+  },
+  "vlm_invoked": true,
+  "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nThe main visible subject is a grand classical building with a large statue on top. In the close-up, one can see a statue of a lion on a pedestal in front of the building. The building has several columns and windows, and the sky is clear with some clouds.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Edge / shape inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+  "vlm_error": null,
+  "inference_seconds": 23.52
+}

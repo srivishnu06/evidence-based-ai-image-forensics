@@ -1,0 +1,22 @@
+{
+  "checkpoint": "checkpoints/deit_forensics.pt",
+  "test_images": 2419,
+  "threshold": 0.1,
+  "ground_truth_positive_fraction": 0.03828805484279579,
+  "predicted_foreground_fraction": 0.14370502231483748,
+  "global_spatial_ap": 0.07592777870673031,
+  "present_artifact_mean_ap": 0.21581398401307628,
+  "all_map_precision": 0.0876466123479362,
+  "all_map_recall": 0.328960518756935,
+  "all_map_f1": 0.13841469774557086,
+  "all_map_iou": 0.0743531320202985,
+  "per_category_spatial_ap": {
+    "low-level-edge_shape": 0.1465628248417846,
+    "low-level-texture": 0.0466579228385311,
+    "low-level-color": 0.008902539948611775,
+    "low-level-symbol": 0.023437643742226455,
+    "high-level-semantics": 0.07376501580484159,
+    "cognitive-level-commonsense": 0.013904916424856226,
+    "cognitive-level-physics": 0.008853449943320301
+  }
+}

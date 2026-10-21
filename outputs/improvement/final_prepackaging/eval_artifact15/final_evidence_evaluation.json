@@ -1,0 +1,222 @@
+{
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/deit_region_artifact15_v1_best_spatial_ap.pt",
+  "dataset_id": "e89e43f6109e4020aac0952af699531b",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_e89e43f6109e4020aac0952af699531b",
+  "artifact_thresholds": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "localization_threshold": 0.5,
+  "artifact_metrics": {
+    "thresholds": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "macro_precision": 0.3642857142857143,
+    "macro_recall": 0.4857142857142857,
+    "macro_f1": 0.39754689754689754,
+    "micro_precision": 0.5862068965517241,
+    "micro_recall": 0.7083333333333334,
+    "micro_f1": 0.6415094339622641,
+    "weighted_precision": 0.5895833333333333,
+    "weighted_recall": 0.7083333333333334,
+    "weighted_f1": 0.6283670033670034,
+    "exact_match_accuracy": 0.16666666666666666,
+    "hamming_loss": 0.2261904761904762,
+    "per_class_precision": [
+      0.8,
+      0.6666666666666666,
+      0.0,
+      0.75,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "per_class_recall": [
+      1.0,
+      0.8,
+      0.0,
+      0.6,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "per_class_f1": [
+      0.8888888888888888,
+      0.7272727272727273,
+      0.0,
+      0.6666666666666666,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "per_class_support": [
+      8,
+      5,
+      2,
+      5,
+      2,
+      1,
+      1
+    ],
+    "map_macro": 0.5686318542568543,
+    "map_micro": 0.6657511906707787,
+    "map_weighted": 0.7310591029341028
+  },
+  "localization_metrics": {
+    "threshold": 0.5,
+    "mean_iou": 0.02833619401242352,
+    "mean_pixel_precision": 0.09543773649810801,
+    "mean_pixel_recall": 0.033863705738705736,
+    "mean_pixel_f1": 0.04329142630485208,
+    "pointing_accuracy": 0.08333333333333333,
+    "evaluated_artifact_instances": 24,
+    "per_class": [
+      {
+        "evaluated_instances": 8,
+        "mean_iou": 0.08500858203727056,
+        "mean_pixel_f1": 0.12987427891455625,
+        "pointing_accuracy": 0.25
+      },
+      {
+        "evaluated_instances": 5,
+        "mean_iou": 0.0,
+        "mean_pixel_f1": 0.0,
+        "pointing_accuracy": 0.0
+      },
+      {
+        "evaluated_instances": 2,
+        "mean_iou": 0.0,
+        "mean_pixel_f1": 0.0,
+        "pointing_accuracy": 0.0
+      },
+      {
+        "evaluated_instances": 5,
+        "mean_iou": 0.0,
+        "mean_pixel_f1": 0.0,
+        "pointing_accuracy": 0.0
+      },
+      {
+        "evaluated_instances": 2,
+        "mean_iou": 0.0,
+        "mean_pixel_f1": 0.0,
+        "pointing_accuracy": 0.0
+      },
+      {
+        "evaluated_instances": 1,
+        "mean_iou": 0.0,
+        "mean_pixel_f1": 0.0,
+        "pointing_accuracy": 0.0
+      },
+      {
+        "evaluated_instances": 1,
+        "mean_iou": 0.0,
+        "mean_pixel_f1": 0.0,
+        "pointing_accuracy": 0.0
+      }
+    ]
+  },
+  "per_class": [
+    {
+      "artifact": "low-level-edge_shape",
+      "display_name": "Edge / shape inconsistency",
+      "threshold": 0.5,
+      "support": 8,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888,
+      "evaluated_instances": 8,
+      "mean_iou": 0.08500858203727056,
+      "mean_pixel_f1": 0.12987427891455625,
+      "pointing_accuracy": 0.25
+    },
+    {
+      "artifact": "low-level-texture",
+      "display_name": "Texture inconsistency",
+      "threshold": 0.5,
+      "support": 5,
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1": 0.7272727272727273,
+      "evaluated_instances": 5,
+      "mean_iou": 0.0,
+      "mean_pixel_f1": 0.0,
+      "pointing_accuracy": 0.0
+    },
+    {
+      "artifact": "low-level-color",
+      "display_name": "Colour inconsistency",
+      "threshold": 0.5,
+      "support": 2,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "evaluated_instances": 2,
+      "mean_iou": 0.0,
+      "mean_pixel_f1": 0.0,
+      "pointing_accuracy": 0.0
+    },
+    {
+      "artifact": "low-level-symbol",
+      "display_name": "Symbol / text inconsistency",
+      "threshold": 0.5,
+      "support": 5,
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1": 0.6666666666666666,
+      "evaluated_instances": 5,
+      "mean_iou": 0.0,
+      "mean_pixel_f1": 0.0,
+      "pointing_accuracy": 0.0
+    },
+    {
+      "artifact": "high-level-semantics",
+      "display_name": "Semantic inconsistency",
+      "threshold": 0.5,
+      "support": 2,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "evaluated_instances": 2,
+      "mean_iou": 0.0,
+      "mean_pixel_f1": 0.0,
+      "pointing_accuracy": 0.0
+    },
+    {
+      "artifact": "cognitive-level-commonsense",
+      "display_name": "Commonsense violation",
+      "threshold": 0.5,
+      "support": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "evaluated_instances": 1,
+      "mean_iou": 0.0,
+      "mean_pixel_f1": 0.0,
+      "pointing_accuracy": 0.0
+    },
+    {
+      "artifact": "cognitive-level-physics",
+      "display_name": "Physics violation",
+      "threshold": 0.5,
+      "support": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "evaluated_instances": 1,
+      "mean_iou": 0.0,
+      "mean_pixel_f1": 0.0,
+      "pointing_accuracy": 0.0
+    }
+  ]
+}

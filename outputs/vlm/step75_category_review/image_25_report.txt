@@ -1,0 +1,11 @@
+CV AUTHENTICITY PREDICTION
+Authentic (AI probability: 0.2490; threshold: 0.5141). This is a model prediction, not independent verification of image origin.
+
+STAGE 2 ARTIFACT SIGNAL
+Highest-scoring category: Edge / shape inconsistency. Category probability: 0.8928. Category flagged: True. Candidate evidence regions: 1.
+
+VLM VISUAL OBSERVATION (UNVERIFIED)
+The highlighted area shows a possible inconsistency in the edge and shape of the flowers. The edges appear to be slightly jaggedy and inconsistent with the rest of the flowers.
+
+EVIDENCE LIMITATIONS
+Artifact scores and highlighted regions are model estimates, not verified defects. Any VLM observation requires visual review. Neither an artifact prediction nor its explanation establishes image origin. Stage 1 predicts authentic even though Stage 2 flags a possible inconsistency. These are separate model outputs and should not be treated as a confirmed authenticity contradiction.

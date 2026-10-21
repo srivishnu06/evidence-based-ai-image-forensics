@@ -1,0 +1,67 @@
+{
+  "source_checkpoint": "checkpoints/deit_region_full_best_spatial_ap.pt",
+  "calibrated_checkpoint": "checkpoints/deit_region_calibrated.pt",
+  "validation_images": 138,
+  "artifact_calibration": {
+    "low-level-edge_shape": {
+      "positive_validation_images": 91,
+      "threshold": 0.5299999999999999,
+      "f1_at_0_5": 0.845360824742268,
+      "calibrated_f1": 0.8526315789473684
+    },
+    "low-level-texture": {
+      "positive_validation_images": 43,
+      "threshold": 0.15999999999999998,
+      "f1_at_0_5": 0.42,
+      "calibrated_f1": 0.5308641975308642
+    },
+    "low-level-color": {
+      "positive_validation_images": 7,
+      "threshold": 0.5299999999999999,
+      "f1_at_0_5": 0.2222222222222222,
+      "calibrated_f1": 0.23529411764705882
+    },
+    "low-level-symbol": {
+      "positive_validation_images": 32,
+      "threshold": 0.82,
+      "f1_at_0_5": 0.7222222222222222,
+      "calibrated_f1": 0.8421052631578947
+    },
+    "high-level-semantics": {
+      "positive_validation_images": 67,
+      "threshold": 0.13,
+      "f1_at_0_5": 0.5873015873015873,
+      "calibrated_f1": 0.6633165829145728
+    },
+    "cognitive-level-commonsense": {
+      "positive_validation_images": 13,
+      "threshold": 0.57,
+      "f1_at_0_5": 0.2222222222222222,
+      "calibrated_f1": 0.25
+    },
+    "cognitive-level-physics": {
+      "positive_validation_images": 9,
+      "threshold": 0.19999999999999996,
+      "f1_at_0_5": 0.09523809523809523,
+      "calibrated_f1": 0.22727272727272727
+    }
+  },
+  "localization": {
+    "baseline_threshold": 0.1,
+    "baseline_metrics": {
+      "f1": 0.27475570550975587,
+      "iou": 0.15925611601047931,
+      "precision": 0.19429188799855945,
+      "recall": 0.46897750733456484,
+      "predicted_fraction": 0.11732581231250264
+    },
+    "calibrated_threshold": 0.14,
+    "calibrated_metrics": {
+      "f1": 0.2920385898476242,
+      "iou": 0.17098664414295517,
+      "precision": 0.2495569766545959,
+      "recall": 0.3519504509399109,
+      "predicted_fraction": 0.06855009084379093
+    }
+  }
+}

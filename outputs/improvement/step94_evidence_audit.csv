@@ -1,0 +1,10 @@
+image,cv_verdict,ai_score,top_artifact,artifact_score,regions,vlm_invoked,vlm_observation,human_visible_defect,human_vlm_supported,human_notes,error
+outputs/vlm/step78_live_crops/image_0_original.png,Authentic,0.07837976515293121,Symbol / text inconsistency,0.7367660999298096,0,False,,UNREVIEWED,UNREVIEWED,,
+outputs/vlm/step78_live_crops/image_17_original.png,AI-generated,0.9669132828712463,Edge / shape inconsistency,0.9620969295501709,1,True,"QWEN VISUAL OBSERVATION — EXPERIMENTAL, NOT VERIFIED
+The main visible subject is a grand classical building with a large statue on top. In the close-up, one can see a statue of a lion on a pedestal in front of the building. The building has several columns and windows, and the sky is clear with some clouds.
+
+STAGE 2 MODEL SUGGESTION
+The separate evidence model proposed: Edge / shape inconsistency. This category is a prediction and is not a fact established by Qwen.
+
+EVIDENCE STATUS
+Unverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",UNREVIEWED,UNREVIEWED,,

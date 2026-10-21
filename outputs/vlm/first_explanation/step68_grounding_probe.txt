@@ -1,0 +1,21 @@
+=== PROMPT TEST ===
+
+Independent Stage 1 detector:
+- Verdict: Authentic.
+- AI-generated probability: 0.0231.
+- Decision threshold: 0.5141.
+
+Independent Stage 2 evidence model:
+- Strongest predicted category: Symbol / text inconsistency.
+- Category probability: 0.9242.
+- Calibrated category threshold: 0.82.
+- Evidence-region threshold: 0.14.
+- Extracted candidate evidence regions: 1.
+
+The red overlay shows model-estimated spatial evidence.
+The highlighted location and artifact prediction are fallible.
+Do not assume that an artifact proves AI generation.
+Evaluate whether visible text or symbols support the finding.
+
+=== GENERATED EXPLANATION ===
+ Please

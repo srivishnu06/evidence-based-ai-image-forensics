@@ -1,0 +1,11 @@
+CV AUTHENTICITY PREDICTION
+AI-generated (AI probability: 0.9669; threshold: 0.5141). This is a model prediction, not independent verification of image origin.
+
+STAGE 2 ARTIFACT SIGNAL
+Highest-scoring category: Edge / shape inconsistency. Category probability: 0.9621. Category flagged: True. Candidate evidence regions: 1.
+
+VLM VISUAL OBSERVATION (UNVERIFIED)
+The building has been colored red.
+
+EVIDENCE LIMITATIONS
+Artifact scores and highlighted regions are model estimates, not verified defects. Any VLM observation requires visual review. Neither an artifact prediction nor its explanation establishes image origin.

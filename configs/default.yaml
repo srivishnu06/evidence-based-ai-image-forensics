@@ -1,0 +1,68 @@
+project:
+  name: evidence_based_ai_image_forensics
+  seed: 42
+
+datasets:
+  tiny_genimage_clearml_id: fa50f8f521e84d869134e01276c31843
+  xaigd_labeled_clearml_id: e89e43f6109e4020aac0952af699531b
+
+detector:
+  image_size: 224
+  baseline_model: resnet18
+  main_model: deit_tiny_patch16_224.fb_in1k
+  num_classes: 2
+  holdout_generators:
+    - Midjourney
+    - Wukong
+
+stage1:
+  models:
+    - resnet18
+    - efficientnet_b0
+    - mobilenet_v3_large
+    - deit_tiny
+  epochs: 15
+  batch_size: 32
+  early_stopping_patience: 4
+  learning_rates:
+    - 0.00001
+    - 0.00003
+    - 0.0001
+  primary_learning_rate: 0.00003
+  weight_decay: 0.01
+  warmup_ratio: 0.10
+  val_fraction: 0.10
+  checkpoint_metric: auroc
+  threshold_metric: f1
+
+stage2:
+  epochs: 30
+  batch_size: 16
+  learning_rates:
+    - 0.00001
+    - 0.00003
+    - 0.00005
+  primary_learning_rate: 0.00003
+  weight_decay: 0.01
+  warmup_ratio: 0.10
+  early_stopping_patience: 5
+  val_fraction: 0.15
+  last_n_blocks: 2
+  artifact_loss_weight: 1.0
+  localization_loss_weight: 0.5
+  artifact_pos_weight: auto
+  patch_grid: 14
+
+vlm:
+  model: Qwen/Qwen2.5-VL-3B-Instruct
+  load_in_4bit: true
+
+paths:
+  detector_checkpoint: checkpoints/deit_tiny_detector.pt
+  forensics_checkpoint: checkpoints/deit_region_calibrated.pt
+  outputs: outputs
+
+clearml:
+  enabled: true
+  project_name: "Evidence-Based AI Image Forensics"
+  output_uri: null

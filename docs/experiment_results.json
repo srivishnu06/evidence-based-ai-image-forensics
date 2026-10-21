@@ -1,0 +1,296 @@
+{
+  "provenance": {
+    "date": "2026-10-20",
+    "origin": "User-supplied SageMaker training/evaluation logs and previously verified chat outputs; no inference rerun in the artifact-building environment",
+    "validation_caveat": "Small X-AIGD validation set used during model selection and threshold calibration. Some X-AIGD labelled-test outputs previously examined during development."
+  },
+  "stage1": {
+    "dataset": "Tiny-GenImage",
+    "dataset_id": "fa50f8f521e84d869134e01276c31843",
+    "train_count": 21600,
+    "internal_val_count": 2400,
+    "held_out_fake_generator_ids": [
+      4,
+      8
+    ],
+    "held_out_generator_names": [
+      "Midjourney",
+      "Wukong"
+    ],
+    "internal_validation": {
+      "resnet18": {
+        "best_epoch": 9,
+        "auroc": 0.9654264285714286,
+        "accuracy": 0.9041666666666667,
+        "threshold": 0.3752555549144745,
+        "false_positive_rate": 0.10214285714285715
+      },
+      "efficientnet_b0": {
+        "best_epoch": 11,
+        "auroc": 0.9550228571428572,
+        "accuracy": 0.8870833333333333,
+        "threshold": 0.7895944714546204,
+        "false_positive_rate": 0.11642857142857142
+      },
+      "mobilenet_v3_large": {
+        "best_epoch": 10,
+        "auroc": 0.9614282142857142,
+        "accuracy": 0.89375,
+        "threshold": 0.9268192052841187,
+        "false_positive_rate": 0.10571428571428572
+      },
+      "deit_tiny": {
+        "best_epoch": 2,
+        "auroc": 0.9725271428571429,
+        "accuracy": 0.91875,
+        "threshold": 0.5141081809997559,
+        "false_positive_rate": 0.07428571428571429
+      }
+    },
+    "separate_evaluation_from_prior_logs": {
+      "resnet18": {
+        "overall_auroc_approx": 0.9261,
+        "accuracy_approx": 0.8526,
+        "unseen_generator_auroc_approx": 0.8375
+      },
+      "efficientnet_b0": {
+        "overall_auroc_approx": 0.9082,
+        "accuracy_approx": 0.8261,
+        "unseen_generator_auroc_approx": 0.801
+      },
+      "mobilenet_v3_large": {
+        "overall_auroc_approx": 0.916,
+        "accuracy_approx": 0.8434,
+        "unseen_generator_auroc_approx": 0.8071
+      },
+      "deit_tiny": {
+        "overall_auroc": 0.94578571,
+        "accuracy": 0.87657143,
+        "unseen_generator_auroc": 0.87401257
+      }
+    },
+    "deployed_checkpoint": "checkpoints/deit_tiny_detector.pt"
+  },
+  "stage2": {
+    "dataset": "X-AIGD",
+    "dataset_id": "e89e43f6109e4020aac0952af699531b",
+    "uid_grouped_training_count": 780,
+    "internal_val_count": 138,
+    "available_labelled_test_count": 2419,
+    "category_names": [
+      "Edge / shape",
+      "Texture",
+      "Colour",
+      "Symbol / text",
+      "Semantics",
+      "Commonsense",
+      "Physics"
+    ],
+    "internal_val_positive_support": [
+      91,
+      43,
+      7,
+      32,
+      67,
+      13,
+      9
+    ],
+    "internal_train_positive_support": [
+      593,
+      234,
+      43,
+      166,
+      387,
+      76,
+      51
+    ],
+    "model_selection_and_metric_convention": "Comparison JSON and training-summary tuned-metric values are distinct; do not mix them without examining the evaluation code and thresholds.",
+    "comparison": {
+      "original_bce": {
+        "best_epoch": 13,
+        "global_spatial_ap": 0.09136225819756841,
+        "present_artifact_ap": 0.2508300406787373,
+        "pointing_accuracy": 0.3053435114503817,
+        "artifact_macro_f1": 0.4321616947705196,
+        "all_map_f1_at_0_1": 0.15389226451595325,
+        "all_map_iou_at_0_1": 0.083360392006376
+      },
+      "convolutional_spatial_decoder": {
+        "best_epoch": 11,
+        "global_spatial_ap": 0.19528833454878658,
+        "present_artifact_ap": 0.2817714556663537,
+        "pointing_accuracy": 0.22137404580152673,
+        "artifact_macro_f1": 0.41678354911088655,
+        "all_map_precision_at_0_1": 0.1966230337696623,
+        "all_map_recall_at_0_1": 0.38846028468977506,
+        "all_map_f1_at_0_1": 0.2610918385977725,
+        "all_map_iou_at_0_1": 0.1501469970600588,
+        "foreground_fraction_at_0_1": 0.09603033760087885
+      },
+      "region_distribution_best_loss": {
+        "best_epoch": 11,
+        "global_spatial_ap": 0.19937118671831394,
+        "present_artifact_ap": 0.336689817772998,
+        "pointing_accuracy": 0.3244274809160305,
+        "artifact_macro_f1": 0.41810556570189045,
+        "all_map_f1_at_0_1": 0.2509257369449223,
+        "all_map_iou_at_0_1": 0.14346202573848102
+      },
+      "region_distribution_best_spatial_ap": {
+        "best_epoch": 21,
+        "global_spatial_ap": 0.2257163422552029,
+        "present_artifact_ap": 0.3706375803833034,
+        "pointing_accuracy": 0.40458015267175573,
+        "artifact_macro_f1": 0.4449381677069454,
+        "all_map_precision_at_0_1": 0.19429188799855945,
+        "all_map_recall_at_0_1": 0.46897750733456484,
+        "all_map_f1_at_0_1": 0.27475570550975587,
+        "all_map_iou_at_0_1": 0.15925611601047931,
+        "foreground_fraction_at_0_1": 0.11732581231250264,
+        "ground_truth_fraction": 0.0486067097646512
+      }
+    },
+    "training_summary_macro_f1_tuned_in_same_internal_val": {
+      "original_bce_loss_checkpoint": 0.5073168313330585,
+      "conv_decoder_loss_checkpoint": 0.5096003816415803,
+      "region_best_loss_checkpoint": 0.5123959641327797
+    },
+    "per_category_region_best_spatial_ap": {
+      "Edge / shape": {
+        "positive_images": 91,
+        "spatial_ap": 0.35971341975266324,
+        "present_artifact_ap": 0.41813701429763106,
+        "pointing_accuracy": 0.45054945054945056,
+        "artifact_f1": 0.845360824742268
+      },
+      "Texture": {
+        "positive_images": 43,
+        "spatial_ap": 0.08609411913391402,
+        "present_artifact_ap": 0.27864257914635887,
+        "pointing_accuracy": 0.3023255813953488,
+        "artifact_f1": 0.42
+      },
+      "Colour": {
+        "positive_images": 7,
+        "spatial_ap": 0.02411367626835384,
+        "present_artifact_ap": 0.3982863899354768,
+        "pointing_accuracy": 0.2857142857142857,
+        "artifact_f1": 0.2222222222222222
+      },
+      "Symbol / text": {
+        "positive_images": 32,
+        "spatial_ap": 0.23300041630994717,
+        "present_artifact_ap": 0.4243157300632152,
+        "pointing_accuracy": 0.53125,
+        "artifact_f1": 0.7222222222222222
+      },
+      "Semantics": {
+        "positive_images": 67,
+        "spatial_ap": 0.19089291398837344,
+        "present_artifact_ap": 0.40176546022340504,
+        "pointing_accuracy": 0.43283582089552236,
+        "artifact_f1": 0.5873015873015873
+      },
+      "Commonsense": {
+        "positive_images": 13,
+        "spatial_ap": 0.009673977730813021,
+        "present_artifact_ap": 0.17784641529727538,
+        "pointing_accuracy": 0.15384615384615385,
+        "artifact_f1": 0.2222222222222222
+      },
+      "Physics": {
+        "positive_images": 9,
+        "spatial_ap": 0.006987643239297026,
+        "present_artifact_ap": 0.16428328118263233,
+        "pointing_accuracy": 0.2222222222222222,
+        "artifact_f1": 0.09523809523809523
+      }
+    },
+    "deployed": {
+      "checkpoint": "checkpoints/deit_region_calibrated.pt",
+      "selected_checkpoint": "checkpoints/deit_region_full_best_spatial_ap.pt",
+      "artifact_thresholds": [
+        0.53,
+        0.16,
+        0.53,
+        0.82,
+        0.13,
+        0.57,
+        0.2
+      ],
+      "localization_threshold": 0.14,
+      "val_tuned_all_map_f1_at_0_14_approx": 0.292,
+      "val_tuned_all_map_iou_at_0_14_approx": 0.171,
+      "classification_epoch": 21
+    }
+  },
+  "vlm": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "quantization": "4-bit bitsandbytes",
+    "role": "Visual observation of original + unaltered CV-selected crop; never controls authenticity verdict",
+    "limited_review_example_indices": [
+      {
+        "index": 0,
+        "annotated": "Edge / shape",
+        "invoked": false
+      },
+      {
+        "index": 3,
+        "annotated": "Texture",
+        "vlm_result": "generic landscape description"
+      },
+      {
+        "index": 10,
+        "annotated": "Colour",
+        "vlm_result": "generic architecture description"
+      },
+      {
+        "index": 5,
+        "annotated": "Symbol / text",
+        "vlm_result": "claimed no text inconsistency despite visually unclear lettering"
+      },
+      {
+        "index": 1,
+        "annotated": "Semantics",
+        "invoked": false
+      },
+      {
+        "index": 17,
+        "annotated": "Commonsense",
+        "vlm_result": "unsupported Buddha-statue missing-head description after crop selection"
+      },
+      {
+        "index": 25,
+        "annotated": "Physics",
+        "vlm_result": "claimed jagged flower edges without clear physics basis"
+      }
+    ],
+    "external_demo_parrot": {
+      "stage1_ai_score": 0.6659,
+      "stage1_threshold": 0.51410818,
+      "stage2_top": "Semantic inconsistency",
+      "stage2_top_score": 0.6548,
+      "flagged_categories": 4,
+      "candidate_regions": 2,
+      "peak_localization_score": 0.346,
+      "vlm_observation": "The parrot's eye is not round.",
+      "manual_assessment": "Unsupported on visual inspection; image provenance unknown; cannot call it a false positive."
+    },
+    "quality_status": "Experimental/unverified, no validated explanation quality aggregate",
+    "inference_time_seconds_examples": [
+      3.68,
+      6.48
+    ],
+    "gpu_peak_allocated_gib_examples": [
+      3.75,
+      3.82
+    ]
+  },
+  "application": {
+    "front_end": "React + TypeScript + Vite",
+    "back_end": "FastAPI Python; compiled React served on same port",
+    "sagemaker_proxy_port": 8502,
+    "fallback": "demo_app.py Streamlit",
+    "best_practice": "CV-only default, optional Qwen; model score not a calibrated proof of provenance"
+  }
+}

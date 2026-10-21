@@ -1,0 +1,222 @@
+{
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/deit_forensics.pt",
+  "dataset_id": "e89e43f6109e4020aac0952af699531b",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_e89e43f6109e4020aac0952af699531b",
+  "artifact_thresholds": [
+    0.6170328259468079,
+    0.28452134132385254,
+    0.6339989900588989,
+    0.7128821015357971,
+    0.09945342689752579,
+    0.5689171552658081,
+    0.5686489939689636
+  ],
+  "localization_threshold": 0.1,
+  "artifact_metrics": {
+    "thresholds": [
+      0.6170328259468079,
+      0.28452134132385254,
+      0.6339989900588989,
+      0.7128821015357971,
+      0.09945342689752579,
+      0.5689171552658081,
+      0.5686489939689636
+    ],
+    "macro_precision": 0.3593615311990258,
+    "macro_recall": 0.5518297460218077,
+    "macro_f1": 0.3965581450432442,
+    "micro_precision": 0.4356965661313487,
+    "micro_recall": 0.7493824388052998,
+    "micro_f1": 0.5510237780713342,
+    "weighted_precision": 0.5244016568560098,
+    "weighted_recall": 0.7493824388052998,
+    "weighted_f1": 0.5808559198899499,
+    "exact_match_accuracy": 0.051260851591566764,
+    "hamming_loss": 0.3211480540955531,
+    "per_class_precision": [
+      0.7591881513987931,
+      0.2671500278862242,
+      0.10897435897435898,
+      0.6541095890410958,
+      0.46249481972648154,
+      0.15265486725663716,
+      0.11095890410958904
+    ],
+    "per_class_recall": [
+      0.8606965174129353,
+      0.8433098591549296,
+      0.1349206349206349,
+      0.3392539964476021,
+      1.0,
+      0.23711340206185566,
+      0.44751381215469616
+    ],
+    "per_class_f1": [
+      0.806761877003789,
+      0.40576027107157986,
+      0.12056737588652482,
+      0.44678362573099417,
+      0.632473788608671,
+      0.1857335127860027,
+      0.1778265642151482
+    ],
+    "per_class_support": [
+      1608,
+      568,
+      126,
+      563,
+      1116,
+      291,
+      181
+    ],
+    "map_macro": 0.3649187144266656,
+    "map_micro": 0.5523982555923086,
+    "map_weighted": 0.5587285196229597
+  },
+  "localization_metrics": {
+    "threshold": 0.1,
+    "mean_iou": 0.10476660861695981,
+    "mean_pixel_precision": 0.18409082122467474,
+    "mean_pixel_recall": 0.3010595580512758,
+    "mean_pixel_f1": 0.1715285837690783,
+    "pointing_accuracy": 0.2227711655064002,
+    "evaluated_artifact_instances": 4453,
+    "per_class": [
+      {
+        "evaluated_instances": 1608,
+        "mean_iou": 0.17033316548088762,
+        "mean_pixel_f1": 0.2692170590997191,
+        "pointing_accuracy": 0.2922885572139303
+      },
+      {
+        "evaluated_instances": 568,
+        "mean_iou": 0.056342198593122846,
+        "mean_pixel_f1": 0.09902114908274198,
+        "pointing_accuracy": 0.20246478873239437
+      },
+      {
+        "evaluated_instances": 126,
+        "mean_iou": 0.05373016877169194,
+        "mean_pixel_f1": 0.09461316450154747,
+        "pointing_accuracy": 0.21428571428571427
+      },
+      {
+        "evaluated_instances": 563,
+        "mean_iou": 0.04259781974626426,
+        "mean_pixel_f1": 0.07163926195222813,
+        "pointing_accuracy": 0.14742451154529307
+      },
+      {
+        "evaluated_instances": 1116,
+        "mean_iou": 0.09715729534942925,
+        "mean_pixel_f1": 0.16540014538080108,
+        "pointing_accuracy": 0.21774193548387097
+      },
+      {
+        "evaluated_instances": 291,
+        "mean_iou": 0.04287655522729001,
+        "mean_pixel_f1": 0.07657769633213467,
+        "pointing_accuracy": 0.11683848797250859
+      },
+      {
+        "evaluated_instances": 181,
+        "mean_iou": 0.049560311125284716,
+        "mean_pixel_f1": 0.08589450126207424,
+        "pointing_accuracy": 0.11049723756906077
+      }
+    ]
+  },
+  "per_class": [
+    {
+      "artifact": "low-level-edge_shape",
+      "display_name": "Edge / shape inconsistency",
+      "threshold": 0.6170328259468079,
+      "support": 1608,
+      "precision": 0.7591881513987931,
+      "recall": 0.8606965174129353,
+      "f1": 0.806761877003789,
+      "evaluated_instances": 1608,
+      "mean_iou": 0.17033316548088762,
+      "mean_pixel_f1": 0.2692170590997191,
+      "pointing_accuracy": 0.2922885572139303
+    },
+    {
+      "artifact": "low-level-texture",
+      "display_name": "Texture inconsistency",
+      "threshold": 0.28452134132385254,
+      "support": 568,
+      "precision": 0.2671500278862242,
+      "recall": 0.8433098591549296,
+      "f1": 0.40576027107157986,
+      "evaluated_instances": 568,
+      "mean_iou": 0.056342198593122846,
+      "mean_pixel_f1": 0.09902114908274198,
+      "pointing_accuracy": 0.20246478873239437
+    },
+    {
+      "artifact": "low-level-color",
+      "display_name": "Colour inconsistency",
+      "threshold": 0.6339989900588989,
+      "support": 126,
+      "precision": 0.10897435897435898,
+      "recall": 0.1349206349206349,
+      "f1": 0.12056737588652482,
+      "evaluated_instances": 126,
+      "mean_iou": 0.05373016877169194,
+      "mean_pixel_f1": 0.09461316450154747,
+      "pointing_accuracy": 0.21428571428571427
+    },
+    {
+      "artifact": "low-level-symbol",
+      "display_name": "Symbol / text inconsistency",
+      "threshold": 0.7128821015357971,
+      "support": 563,
+      "precision": 0.6541095890410958,
+      "recall": 0.3392539964476021,
+      "f1": 0.44678362573099417,
+      "evaluated_instances": 563,
+      "mean_iou": 0.04259781974626426,
+      "mean_pixel_f1": 0.07163926195222813,
+      "pointing_accuracy": 0.14742451154529307
+    },
+    {
+      "artifact": "high-level-semantics",
+      "display_name": "Semantic inconsistency",
+      "threshold": 0.09945342689752579,
+      "support": 1116,
+      "precision": 0.46249481972648154,
+      "recall": 1.0,
+      "f1": 0.632473788608671,
+      "evaluated_instances": 1116,
+      "mean_iou": 0.09715729534942925,
+      "mean_pixel_f1": 0.16540014538080108,
+      "pointing_accuracy": 0.21774193548387097
+    },
+    {
+      "artifact": "cognitive-level-commonsense",
+      "display_name": "Commonsense violation",
+      "threshold": 0.5689171552658081,
+      "support": 291,
+      "precision": 0.15265486725663716,
+      "recall": 0.23711340206185566,
+      "f1": 0.1857335127860027,
+      "evaluated_instances": 291,
+      "mean_iou": 0.04287655522729001,
+      "mean_pixel_f1": 0.07657769633213467,
+      "pointing_accuracy": 0.11683848797250859
+    },
+    {
+      "artifact": "cognitive-level-physics",
+      "display_name": "Physics violation",
+      "threshold": 0.5686489939689636,
+      "support": 181,
+      "precision": 0.11095890410958904,
+      "recall": 0.44751381215469616,
+      "f1": 0.1778265642151482,
+      "evaluated_instances": 181,
+      "mean_iou": 0.049560311125284716,
+      "mean_pixel_f1": 0.08589450126207424,
+      "pointing_accuracy": 0.11049723756906077
+    }
+  ]
+}

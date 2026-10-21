@@ -1,0 +1,37 @@
+Evaluating X-AIGD labeled_test:   0%|          | 0/6 [00:00<?, ?it/s]Evaluating X-AIGD labeled_test:  17%|█▋        | 1/6 [00:00<00:02,  2.08it/s]Evaluating X-AIGD labeled_test:  33%|███▎      | 2/6 [00:00<00:01,  3.42it/s]Evaluating X-AIGD labeled_test:  50%|█████     | 3/6 [00:00<00:00,  4.46it/s]Evaluating X-AIGD labeled_test:  67%|██████▋   | 4/6 [00:00<00:00,  5.00it/s]Evaluating X-AIGD labeled_test:  83%|████████▎ | 5/6 [00:01<00:00,  5.76it/s]Evaluating X-AIGD labeled_test: 100%|██████████| 6/6 [00:01<00:00,  5.77it/s]Evaluating X-AIGD labeled_test: 100%|██████████| 6/6 [00:01<00:00,  4.81it/s]
+
+ARTIFACT CLASSIFICATION
+macro_precision             : 0.3642857142857143
+macro_recall                : 0.4857142857142857
+macro_f1                    : 0.39754689754689754
+micro_precision             : 0.5862068965517241
+micro_recall                : 0.7083333333333334
+micro_f1                    : 0.6415094339622641
+weighted_precision          : 0.5895833333333333
+weighted_recall             : 0.7083333333333334
+weighted_f1                 : 0.6283670033670034
+map_macro                   : 0.5686318542568543
+map_micro                   : 0.6657511906707787
+map_weighted                : 0.7310591029341028
+exact_match_accuracy        : 0.16666666666666666
+hamming_loss                : 0.2261904761904762
+
+PER-CLASS ARTIFACT METRICS
+Edge / shape inconsistency       P=0.8000 R=1.0000 F1=0.8889 IoU=0.0850
+Texture inconsistency            P=0.6667 R=0.8000 F1=0.7273 IoU=0.0000
+Colour inconsistency             P=0.0000 R=0.0000 F1=0.0000 IoU=0.0000
+Symbol / text inconsistency      P=0.7500 R=0.6000 F1=0.6667 IoU=0.0000
+Semantic inconsistency           P=0.3333 R=1.0000 F1=0.5000 IoU=0.0000
+Commonsense violation            P=0.0000 R=0.0000 F1=0.0000 IoU=0.0000
+Physics violation                P=0.0000 R=0.0000 F1=0.0000 IoU=0.0000
+
+LOCALIZATION
+mean_iou                    : 0.02833619401242352
+mean_pixel_precision        : 0.09543773649810801
+mean_pixel_recall           : 0.033863705738705736
+mean_pixel_f1               : 0.04329142630485208
+pointing_accuracy           : 0.08333333333333333
+evaluated_artifact_instances: 24
+
+Saved: /home/sagemaker-user/ai_image_forensics_improved/outputs/improvement/final_prepackaging/eval_artifact15/final_evidence_evaluation.json
+Saved: /home/sagemaker-user/ai_image_forensics_improved/outputs/improvement/final_prepackaging/eval_artifact15/per_class_evidence_metrics.csv

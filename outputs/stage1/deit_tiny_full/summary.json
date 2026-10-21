@@ -1,0 +1,67 @@
+{
+  "run_name": "deit_tiny_full",
+  "model": "deit_tiny",
+  "dataset_id": "fa50f8f521e84d869134e01276c31843",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_fa50f8f521e84d869134e01276c31843",
+  "holdout_generators": [
+    "Midjourney",
+    "Wukong"
+  ],
+  "generator_mapping": {
+    "Real": 0,
+    "ADM": 1,
+    "BigGAN": 2,
+    "GLIDE": 3,
+    "Midjourney": 4,
+    "SD14": 5,
+    "SD15": 6,
+    "VQDM": 7,
+    "Wukong": 8
+  },
+  "train_samples": 21600,
+  "internal_val_samples": 2400,
+  "best_epoch": 2,
+  "best_internal_val_auroc": 0.9725271428571429,
+  "best_threshold": 0.5141081809997559,
+  "best_internal_val_metrics": {
+    "threshold": 0.5141081809997559,
+    "support": 2400,
+    "positives": 1000,
+    "negatives": 1400,
+    "accuracy": 0.91875,
+    "balanced_accuracy": 0.9173571428571429,
+    "precision": 0.8973346495557749,
+    "recall": 0.909,
+    "sensitivity": 0.909,
+    "specificity": 0.9257142857142857,
+    "npv": 0.9343907714491708,
+    "f1": 0.9031296572280179,
+    "mcc": 0.8332185131792001,
+    "false_positive_rate": 0.07428571428571429,
+    "false_negative_rate": 0.091,
+    "brier_score": 0.06242967191396725,
+    "log_loss": 0.2086934121816545,
+    "tn": 1296,
+    "fp": 104,
+    "fn": 91,
+    "tp": 909,
+    "confusion_matrix": [
+      [
+        1296,
+        104
+      ],
+      [
+        91,
+        909
+      ]
+    ],
+    "auroc": 0.9725271428571429,
+    "average_precision": 0.968250128693043,
+    "loss": 0.2086934091647466
+  },
+  "parameters": 5524802,
+  "trainable_parameters": 5524802,
+  "single_image_inference_ms": 4.026518490009039,
+  "peak_gpu_memory_gb": 0.6296544075012207,
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/deit_tiny_detector.pt"
+}

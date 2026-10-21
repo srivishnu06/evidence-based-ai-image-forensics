@@ -1,0 +1,251 @@
+{
+  "model": "resnet18",
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/resnet18_detector.pt",
+  "dataset_id": "fa50f8f521e84d869134e01276c31843",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_fa50f8f521e84d869134e01276c31843",
+  "threshold": 0.3752555549144745,
+  "holdout_generators": [
+    "Midjourney",
+    "Wukong"
+  ],
+  "generator_mapping": {
+    "Real": 0,
+    "ADM": 1,
+    "BigGAN": 2,
+    "GLIDE": 3,
+    "Midjourney": 4,
+    "SD14": 5,
+    "SD15": 6,
+    "VQDM": 7,
+    "Wukong": 8
+  },
+  "splits": {
+    "overall": {
+      "threshold": 0.3752555549144745,
+      "support": 7000,
+      "positives": 3500,
+      "negatives": 3500,
+      "accuracy": 0.8525714285714285,
+      "balanced_accuracy": 0.8525714285714285,
+      "precision": 0.8725845410628019,
+      "recall": 0.8257142857142857,
+      "sensitivity": 0.8257142857142857,
+      "specificity": 0.8794285714285714,
+      "npv": 0.8345986984815619,
+      "f1": 0.8485026423957722,
+      "mcc": 0.7061623114099578,
+      "false_positive_rate": 0.12057142857142857,
+      "false_negative_rate": 0.1742857142857143,
+      "brier_score": 0.12325940140373792,
+      "log_loss": 0.6333077743850334,
+      "tn": 3078,
+      "fp": 422,
+      "fn": 610,
+      "tp": 2890,
+      "confusion_matrix": [
+        [
+          3078,
+          422
+        ],
+        [
+          610,
+          2890
+        ]
+      ],
+      "auroc": 0.9261356326530612,
+      "average_precision": 0.9359781050101044,
+      "loss": 0.6362301441601345
+    },
+    "seen": {
+      "threshold": 0.3752555549144745,
+      "support": 6000,
+      "positives": 2500,
+      "negatives": 3500,
+      "accuracy": 0.8913333333333333,
+      "balanced_accuracy": 0.8937142857142857,
+      "precision": 0.8432392273402675,
+      "recall": 0.908,
+      "sensitivity": 0.908,
+      "specificity": 0.8794285714285714,
+      "npv": 0.9304715840386941,
+      "f1": 0.8744221879815101,
+      "mcc": 0.7805395562705177,
+      "false_positive_rate": 0.12057142857142857,
+      "false_negative_rate": 0.092,
+      "brier_score": 0.08384360997752777,
+      "log_loss": 0.35152693016258446,
+      "tn": 3078,
+      "fp": 422,
+      "fn": 230,
+      "tp": 2270,
+      "confusion_matrix": [
+        [
+          3078,
+          422
+        ],
+        [
+          230,
+          2270
+        ]
+      ],
+      "auroc": 0.9616096571428571,
+      "average_precision": 0.9525813638461377
+    },
+    "unseen": {
+      "threshold": 0.3752555549144745,
+      "support": 4500,
+      "positives": 1000,
+      "negatives": 3500,
+      "accuracy": 0.8217777777777778,
+      "balanced_accuracy": 0.7497142857142858,
+      "precision": 0.5950095969289827,
+      "recall": 0.62,
+      "sensitivity": 0.62,
+      "specificity": 0.8794285714285714,
+      "npv": 0.8901098901098901,
+      "f1": 0.6072477962781586,
+      "mcc": 0.49222203565462774,
+      "false_positive_rate": 0.12057142857142857,
+      "false_negative_rate": 0.38,
+      "brier_score": 0.14326463691031938,
+      "log_loss": 0.7591792225154149,
+      "tn": 3078,
+      "fp": 422,
+      "fn": 380,
+      "tp": 620,
+      "confusion_matrix": [
+        [
+          3078,
+          422
+        ],
+        [
+          380,
+          620
+        ]
+      ],
+      "auroc": 0.8374505714285714,
+      "average_precision": 0.6824121774451143
+    }
+  },
+  "per_generator": [
+    {
+      "generator_id": 1,
+      "generator": "ADM",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.966,
+      "mean_fake_probability": 0.9504463681804082,
+      "accuracy": 0.89025,
+      "balanced_accuracy": 0.9227142857142857,
+      "precision": 0.5337016574585636,
+      "recall": 0.966,
+      "specificity": 0.8794285714285714,
+      "f1": 0.6875444839857652,
+      "auroc": 0.9812131428571429,
+      "average_precision": 0.9192437419743875,
+      "mcc": 0.6682536335700372
+    },
+    {
+      "generator_id": 2,
+      "generator": "BigGAN",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.922,
+      "mean_fake_probability": 0.8881241871176703,
+      "accuracy": 0.88475,
+      "balanced_accuracy": 0.9007142857142858,
+      "precision": 0.522083805209513,
+      "recall": 0.922,
+      "specificity": 0.8794285714285714,
+      "f1": 0.6666666666666666,
+      "auroc": 0.9657154285714286,
+      "average_precision": 0.8281106415070418,
+      "mcc": 0.6390503729803027
+    },
+    {
+      "generator_id": 3,
+      "generator": "GLIDE",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.978,
+      "mean_fake_probability": 0.9595567556297128,
+      "accuracy": 0.89175,
+      "balanced_accuracy": 0.9287142857142857,
+      "precision": 0.5367727771679474,
+      "recall": 0.978,
+      "specificity": 0.8794285714285714,
+      "f1": 0.6931254429482636,
+      "auroc": 0.9853385714285714,
+      "average_precision": 0.945913256092123,
+      "mcc": 0.6761589995394512
+    },
+    {
+      "generator_id": 4,
+      "generator": "Midjourney",
+      "is_holdout": true,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.432,
+      "mean_fake_probability": 0.4000933957037518,
+      "accuracy": 0.8235,
+      "balanced_accuracy": 0.6557142857142857,
+      "precision": 0.3385579937304075,
+      "recall": 0.432,
+      "specificity": 0.8794285714285714,
+      "f1": 0.37961335676625657,
+      "auroc": 0.7531525714285714,
+      "average_precision": 0.3727242129439556,
+      "mcc": 0.2812990620137979
+    },
+    {
+      "generator_id": 6,
+      "generator": "SD15",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.818,
+      "mean_fake_probability": 0.7960431858488555,
+      "accuracy": 0.87175,
+      "balanced_accuracy": 0.8487142857142858,
+      "precision": 0.49217809867629364,
+      "recall": 0.818,
+      "specificity": 0.8794285714285714,
+      "f1": 0.6145755071374907,
+      "auroc": 0.9371328571428571,
+      "average_precision": 0.7743413648256041,
+      "mcc": 0.5685348980932017
+    },
+    {
+      "generator_id": 7,
+      "generator": "VQDM",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.856,
+      "mean_fake_probability": 0.8158732446387998,
+      "accuracy": 0.8765,
+      "balanced_accuracy": 0.8677142857142857,
+      "precision": 0.5035294117647059,
+      "recall": 0.856,
+      "specificity": 0.8794285714285714,
+      "f1": 0.6340740740740741,
+      "auroc": 0.9386482857142857,
+      "average_precision": 0.7709481637358512,
+      "mcc": 0.5945587608033535
+    },
+    {
+      "generator_id": 8,
+      "generator": "Wukong",
+      "is_holdout": true,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.808,
+      "mean_fake_probability": 0.7746998064953704,
+      "accuracy": 0.8705,
+      "balanced_accuracy": 0.8437142857142857,
+      "precision": 0.4891041162227603,
+      "recall": 0.808,
+      "specificity": 0.8794285714285714,
+      "f1": 0.6093514328808446,
+      "auroc": 0.9217485714285714,
+      "average_precision": 0.7377912753313002,
+      "mcc": 0.5616336470108094
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+validation_index,annotated_category,cv_predicted_category,stage1_verdict,ai_probability,artifact_probability,artifact_flagged,evidence_regions,vlm_invoked,vlm_observation,execution_seconds,manual_visual_alignment,manual_hallucination_check,manual_notes
+0,Edge / shape,Symbol / text inconsistency,Authentic,0.07838,0.736766,False,0,False,,0.252,,,
+3,Texture,Semantic inconsistency,AI-generated,0.65546,0.658222,True,2,True,"The tree has a curved trunk and branches, with leaves in shades of green and yellow. The sky is clear blue, and there are mountains in the background. The ground is covered with rocks and some grassy patches.",6.582,,,
+10,Color,Edge / shape inconsistency,AI-generated,0.987146,0.937901,True,1,True,The building has a symmetrical facade with columns supporting an entablature and cornice. The main entrance door is centered between two windows. The roofline features decorative elements including a central finial and two smaller finials on either side. The overall architecture appears to be classical or neoclassical in style.,7.322,,,
+5,Symbol / text,Symbol / text inconsistency,Authentic,0.023071,0.924201,True,1,True,The text appears to be consistent and there are no obvious inconsistencies between the original and the highlighted areas.,4.612,,,
+1,Semantics,Symbol / text inconsistency,AI-generated,0.929332,0.211931,False,0,False,,0.061,,,
+17,Commonsense,Edge / shape inconsistency,AI-generated,0.966913,0.962097,True,1,True,The building has been colored red.,4.19,,,
+25,Physics,Edge / shape inconsistency,Authentic,0.249018,0.89278,True,1,True,The highlighted area shows a possible inconsistency in the edge and shape of the flowers. The edges appear to be slightly jaggedy and inconsistent with the rest of the flowers.,5.831,,,

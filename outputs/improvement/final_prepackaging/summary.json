@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "python_tests": true,
+    "react_lint": true,
+    "react_build": true,
+    "eval_baseline": true,
+    "eval_artifact15": true,
+    "live_api": true,
+    "all_17_checkpoints": true,
+    "deit_tiny_detector.pt": true,
+    "deit_region_calibrated.pt": true
+  },
+  "passed": 9,
+  "total": 9,
+  "ready_for_packaging": true,
+  "note": "Evaluator tests use only 12 labelled examples per model; not performance estimates."
+}

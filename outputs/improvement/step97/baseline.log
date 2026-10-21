@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/sagemaker-user/ai_image_forensics_improved/src/evaluation/evaluate_evidence.py", line 173, in <module>
+    main(parse_args())
+  File "/opt/conda/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sagemaker-user/ai_image_forensics_improved/src/evaluation/evaluate_evidence.py", line 36, in main
+    model.load_state_dict(ckpt["model_state"], strict=True)
+  File "/opt/conda/lib/python3.12/site-packages/torch/nn/modules/module.py", line 2624, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for DeiTForensicsModel:
+	Missing key(s) in state_dict: "patch_head.weight", "patch_head.bias". 
+	Unexpected key(s) in state_dict: "patch_head.0.weight", "patch_head.0.bias", "patch_head.2.weight", "patch_head.2.bias". 

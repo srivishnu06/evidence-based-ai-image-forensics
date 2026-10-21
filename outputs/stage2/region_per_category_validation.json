@@ -1,0 +1,104 @@
+{
+  "Previous spatial decoder": {
+    "low-level-edge_shape": {
+      "positive_images": 91,
+      "spatial_ap": 0.32359461023258584,
+      "present_artifact_ap": 0.37907382851384774,
+      "pointing_accuracy": 0.3626373626373626,
+      "artifact_f1": 0.8173076923076923
+    },
+    "low-level-texture": {
+      "positive_images": 43,
+      "spatial_ap": 0.07058900245594413,
+      "present_artifact_ap": 0.2312704590963866,
+      "pointing_accuracy": 0.16279069767441862,
+      "artifact_f1": 0.43478260869565216
+    },
+    "low-level-color": {
+      "positive_images": 7,
+      "spatial_ap": 0.013735323270134306,
+      "present_artifact_ap": 0.2731364985635914,
+      "pointing_accuracy": 0.0,
+      "artifact_f1": 0.2
+    },
+    "low-level-symbol": {
+      "positive_images": 32,
+      "spatial_ap": 0.039014885023530246,
+      "present_artifact_ap": 0.15751139649194096,
+      "pointing_accuracy": 0.03125,
+      "artifact_f1": 0.7
+    },
+    "high-level-semantics": {
+      "positive_images": 67,
+      "spatial_ap": 0.13806608467131065,
+      "present_artifact_ap": 0.2994962840161501,
+      "pointing_accuracy": 0.2537313432835821,
+      "artifact_f1": 0.4424778761061947
+    },
+    "cognitive-level-commonsense": {
+      "positive_images": 13,
+      "spatial_ap": 0.00654231856269815,
+      "present_artifact_ap": 0.10634236825877724,
+      "pointing_accuracy": 0.0,
+      "artifact_f1": 0.15625
+    },
+    "cognitive-level-physics": {
+      "positive_images": 9,
+      "spatial_ap": 0.00625662727245819,
+      "present_artifact_ap": 0.10919458383849871,
+      "pointing_accuracy": 0.0,
+      "artifact_f1": 0.16666666666666666
+    }
+  },
+  "Region-aware best spatial AP": {
+    "low-level-edge_shape": {
+      "positive_images": 91,
+      "spatial_ap": 0.35971341975266324,
+      "present_artifact_ap": 0.41813701429763106,
+      "pointing_accuracy": 0.45054945054945056,
+      "artifact_f1": 0.845360824742268
+    },
+    "low-level-texture": {
+      "positive_images": 43,
+      "spatial_ap": 0.08609411913391402,
+      "present_artifact_ap": 0.27864257914635887,
+      "pointing_accuracy": 0.3023255813953488,
+      "artifact_f1": 0.42
+    },
+    "low-level-color": {
+      "positive_images": 7,
+      "spatial_ap": 0.02411367626835384,
+      "present_artifact_ap": 0.3982863899354768,
+      "pointing_accuracy": 0.2857142857142857,
+      "artifact_f1": 0.2222222222222222
+    },
+    "low-level-symbol": {
+      "positive_images": 32,
+      "spatial_ap": 0.23300041630994717,
+      "present_artifact_ap": 0.4243157300632152,
+      "pointing_accuracy": 0.53125,
+      "artifact_f1": 0.7222222222222222
+    },
+    "high-level-semantics": {
+      "positive_images": 67,
+      "spatial_ap": 0.19089291398837344,
+      "present_artifact_ap": 0.40176546022340504,
+      "pointing_accuracy": 0.43283582089552236,
+      "artifact_f1": 0.5873015873015873
+    },
+    "cognitive-level-commonsense": {
+      "positive_images": 13,
+      "spatial_ap": 0.009673977730813021,
+      "present_artifact_ap": 0.17784641529727538,
+      "pointing_accuracy": 0.15384615384615385,
+      "artifact_f1": 0.2222222222222222
+    },
+    "cognitive-level-physics": {
+      "positive_images": 9,
+      "spatial_ap": 0.006987643239297026,
+      "present_artifact_ap": 0.16428328118263233,
+      "pointing_accuracy": 0.2222222222222222,
+      "artifact_f1": 0.09523809523809523
+    }
+  }
+}

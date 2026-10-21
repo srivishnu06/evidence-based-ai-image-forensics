@@ -1,0 +1,8 @@
+QWEN VISUAL OBSERVATION — EXPERIMENTAL, NOT VERIFIED
+The crop shows a large, classical-style building with multiple columns and a prominent statue on top. There are also several smaller statues and sculptures around the main structure. There does not appear to be any specific edge or shape inconsistency that would be considered relevant to the suggested category of 'Edge / shape inconsistency'. No clear category-specific irregularity is visible in this crop.
+
+STAGE 2 MODEL SUGGESTION
+The separate evidence model proposed: Edge / shape inconsistency. This category is a prediction and is not a fact established by Qwen.
+
+EVIDENCE STATUS
+Unverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.

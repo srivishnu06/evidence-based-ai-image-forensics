@@ -1,0 +1,251 @@
+{
+  "model": "mobilenet_v3_large",
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/mobilenet_v3_large_detector.pt",
+  "dataset_id": "fa50f8f521e84d869134e01276c31843",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_fa50f8f521e84d869134e01276c31843",
+  "threshold": 0.9268192052841187,
+  "holdout_generators": [
+    "Midjourney",
+    "Wukong"
+  ],
+  "generator_mapping": {
+    "Real": 0,
+    "ADM": 1,
+    "BigGAN": 2,
+    "GLIDE": 3,
+    "Midjourney": 4,
+    "SD14": 5,
+    "SD15": 6,
+    "VQDM": 7,
+    "Wukong": 8
+  },
+  "splits": {
+    "overall": {
+      "threshold": 0.9268192052841187,
+      "support": 7000,
+      "positives": 3500,
+      "negatives": 3500,
+      "accuracy": 0.8434285714285714,
+      "balanced_accuracy": 0.8434285714285714,
+      "precision": 0.8689379987722529,
+      "recall": 0.8088571428571428,
+      "sensitivity": 0.8088571428571428,
+      "specificity": 0.878,
+      "npv": 0.8212185996793159,
+      "f1": 0.8378218407812963,
+      "mcc": 0.6885048941993432,
+      "false_positive_rate": 0.122,
+      "false_negative_rate": 0.19114285714285714,
+      "brier_score": 0.14338602628216676,
+      "log_loss": 0.7647361435852306,
+      "tn": 3073,
+      "fp": 427,
+      "fn": 669,
+      "tp": 2831,
+      "confusion_matrix": [
+        [
+          3073,
+          427
+        ],
+        [
+          669,
+          2831
+        ]
+      ],
+      "auroc": 0.9159954285714288,
+      "average_precision": 0.9264234442567878,
+      "loss": 0.7854525605610438
+    },
+    "seen": {
+      "threshold": 0.9268192052841187,
+      "support": 6000,
+      "positives": 2500,
+      "negatives": 3500,
+      "accuracy": 0.8893333333333333,
+      "balanced_accuracy": 0.8916,
+      "precision": 0.8412639405204461,
+      "recall": 0.9052,
+      "sensitivity": 0.9052,
+      "specificity": 0.878,
+      "npv": 0.9283987915407855,
+      "f1": 0.8720616570327553,
+      "mcc": 0.7764018622790368,
+      "false_positive_rate": 0.122,
+      "false_negative_rate": 0.0948,
+      "brier_score": 0.12331933050802793,
+      "log_loss": 0.5738121809971363,
+      "tn": 3073,
+      "fp": 427,
+      "fn": 237,
+      "tp": 2263,
+      "confusion_matrix": [
+        [
+          3073,
+          427
+        ],
+        [
+          237,
+          2263
+        ]
+      ],
+      "auroc": 0.9595551999999999,
+      "average_precision": 0.9479063366759873
+    },
+    "unseen": {
+      "threshold": 0.9268192052841187,
+      "support": 4500,
+      "positives": 1000,
+      "negatives": 3500,
+      "accuracy": 0.8091111111111111,
+      "balanced_accuracy": 0.723,
+      "precision": 0.5708542713567839,
+      "recall": 0.568,
+      "sensitivity": 0.568,
+      "specificity": 0.878,
+      "npv": 0.8767475035663338,
+      "f1": 0.569423558897243,
+      "mcc": 0.4468001696683994,
+      "false_positive_rate": 0.122,
+      "false_negative_rate": 0.432,
+      "brier_score": 0.20523600433215625,
+      "log_loss": 1.0967009970492536,
+      "tn": 3073,
+      "fp": 427,
+      "fn": 432,
+      "tp": 568,
+      "confusion_matrix": [
+        [
+          3073,
+          427
+        ],
+        [
+          432,
+          568
+        ]
+      ],
+      "auroc": 0.807096,
+      "average_precision": 0.6231987137480641
+    }
+  },
+  "per_generator": [
+    {
+      "generator_id": 1,
+      "generator": "ADM",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.924,
+      "mean_fake_probability": 0.9678776640474098,
+      "accuracy": 0.88375,
+      "balanced_accuracy": 0.901,
+      "precision": 0.5196850393700787,
+      "recall": 0.924,
+      "specificity": 0.878,
+      "f1": 0.6652267818574514,
+      "auroc": 0.9640242857142858,
+      "average_precision": 0.8251381796985869,
+      "mcc": 0.6379586150898897
+    },
+    {
+      "generator_id": 2,
+      "generator": "BigGAN",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.95,
+      "mean_fake_probability": 0.9761218448330182,
+      "accuracy": 0.887,
+      "balanced_accuracy": 0.9139999999999999,
+      "precision": 0.5266075388026608,
+      "recall": 0.95,
+      "specificity": 0.878,
+      "f1": 0.6776034236804565,
+      "auroc": 0.9705017142857143,
+      "average_precision": 0.8439121385090822,
+      "mcc": 0.6552475196291248
+    },
+    {
+      "generator_id": 3,
+      "generator": "GLIDE",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.986,
+      "mean_fake_probability": 0.9896292161489068,
+      "accuracy": 0.8915,
+      "balanced_accuracy": 0.9319999999999999,
+      "precision": 0.5358695652173913,
+      "recall": 0.986,
+      "specificity": 0.878,
+      "f1": 0.6943661971830986,
+      "auroc": 0.988986,
+      "average_precision": 0.9585932656167312,
+      "mcc": 0.678990182538886
+    },
+    {
+      "generator_id": 4,
+      "generator": "Midjourney",
+      "is_holdout": true,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.442,
+      "mean_fake_probability": 0.5832631345818197,
+      "accuracy": 0.8235,
+      "balanced_accuracy": 0.66,
+      "precision": 0.3410493827160494,
+      "recall": 0.442,
+      "specificity": 0.878,
+      "f1": 0.38501742160278746,
+      "auroc": 0.73885,
+      "average_precision": 0.365559584362464,
+      "mcc": 0.2872297992903952
+    },
+    {
+      "generator_id": 6,
+      "generator": "SD15",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.76,
+      "mean_fake_probability": 0.8722773694505279,
+      "accuracy": 0.86325,
+      "balanced_accuracy": 0.819,
+      "precision": 0.4708798017348203,
+      "recall": 0.76,
+      "specificity": 0.878,
+      "f1": 0.5814843152257078,
+      "auroc": 0.9129602857142858,
+      "average_precision": 0.697739528452661,
+      "mcc": 0.5257792909895438
+    },
+    {
+      "generator_id": 7,
+      "generator": "VQDM",
+      "is_holdout": false,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.906,
+      "mean_fake_probability": 0.9560208357311786,
+      "accuracy": 0.8815,
+      "balanced_accuracy": 0.892,
+      "precision": 0.5147727272727273,
+      "recall": 0.906,
+      "specificity": 0.878,
+      "f1": 0.6565217391304348,
+      "auroc": 0.9613037142857143,
+      "average_precision": 0.815628463082374,
+      "mcc": 0.6259165773260538
+    },
+    {
+      "generator_id": 8,
+      "generator": "Wukong",
+      "is_holdout": true,
+      "fake_samples": 500,
+      "fake_detection_rate": 0.694,
+      "mean_fake_probability": 0.7987283289236482,
+      "accuracy": 0.855,
+      "balanced_accuracy": 0.786,
+      "precision": 0.4483204134366925,
+      "recall": 0.694,
+      "specificity": 0.878,
+      "f1": 0.5447409733124019,
+      "auroc": 0.875342,
+      "average_precision": 0.6134163398241579,
+      "mcc": 0.478864223121467
+    }
+  ]
+}

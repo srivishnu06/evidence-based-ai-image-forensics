@@ -1,0 +1,82 @@
+[
+  {
+    "sample": "sample_02",
+    "artifact": "Edge / shape inconsistency",
+    "verdict": "AI-generated",
+    "old_observation": "No dependable visual description was produced by Qwen for this input. Its raw output was withheld because it failed a basic format-quality check. This does not determine whether the candidate artifact is genuine.",
+    "new_observation": "No dependable visual description was produced by Qwen for this input. Its raw output was withheld because it failed a basic format-quality check. This does not determine whether the candidate artifact is genuine.",
+    "new_vlm_invoked": true,
+    "new_vlm_error": null,
+    "human_review": "PENDING"
+  },
+  {
+    "sample": "sample_03",
+    "artifact": "Edge / shape inconsistency",
+    "verdict": "AI-generated",
+    "old_observation": "The main visible subject is a grand, classical-style building with intricate architectural details. In the close-up, one can see detailed carvings on the columns and pediments, as well as ornate decorations at the top of the building. The columns have decorative capitals and the pediments feature intricate designs. The windows have arched frames and the building has a symmetrical facade.",
+    "new_observation": "The cropped image shows intricate architectural details of a grand building. The columns and pediments exhibit fine carvings and sculptures. There are no obvious edge or shape inconsistencies that would suggest an error in the cropping process. No clear category-specific irregularity is visible in this crop.",
+    "new_vlm_invoked": true,
+    "new_vlm_error": null,
+    "human_review": "PENDING"
+  },
+  {
+    "sample": "sample_04",
+    "artifact": "Edge / shape inconsistency",
+    "verdict": "AI-generated",
+    "old_observation": "The main visible subject is a red and white truck driving on a road. In the close-up, the truck's front grille has a small red emblem in the center. The truck's side features a series of blue and red stripes along its length. The wheels are large and black with blue hubcaps.",
+    "new_observation": "The truck has a consistent color scheme with red and white on the cab and blue and white on the trailer. The wheels appear to have a realistic tire tread pattern, but the overall shape of the truck seems slightly distorted compared to real-world vehicles. There are no obvious broken contours or impossible object geometries that would suggest an artificial origin.",
+    "new_vlm_invoked": true,
+    "new_vlm_error": null,
+    "human_review": "PENDING"
+  },
+  {
+    "sample": "sample_05",
+    "artifact": "Edge / shape inconsistency",
+    "verdict": "Authentic",
+    "old_observation": "The main visible subject in both images is a long corridor lined with golden statues of Buddha. In the close-up, one can see intricate details such as the seated posture of the statues, the polished gold color, and the ornate on the ceiling. The floor is also reflective, adding to the grandeur of the setting.",
+    "new_observation": "The image shows a long corridor with golden statues on both sides. The ceiling has intricate gold carvings and a red mosaic pattern. The floor is shiny and reflective. The statues have detailed features and are seated in a meditative pose. The corridor extends into the distance with large double doors at the end. No clear category-specific irregularity is visible in this crop.",
+    "new_vlm_invoked": true,
+    "new_vlm_error": null,
+    "human_review": "PENDING"
+  },
+  {
+    "sample": "sample_06",
+    "artifact": "Symbol / text inconsistency",
+    "verdict": "AI-generated",
+    "old_observation": "The main visible subject is a red storefront with large yellow letters spelling \"Chi pizza.\" Two concrete details in the close-up are the red awning above the entrance door and the window display inside the store.",
+    "new_observation": "The cropped image shows a storefront with a red awning displaying yellow and white signage that reads \"Chi pizza.\" The sign appears to have some minor pixelation or blurring, but no specific character inconsistencies or malformations are immediately apparent. Assessment: No clear category-specific irregularity is visible in this crop.",
+    "new_vlm_invoked": true,
+    "new_vlm_error": null,
+    "human_review": "PENDING"
+  },
+  {
+    "sample": "sample_07",
+    "artifact": "Edge / shape inconsistency",
+    "verdict": "AI-generated",
+    "old_observation": "The main visible subject is a small island with a yellow dome structure on it, surrounded by water. In the close-up, there is a house with a red roof on the left side of the island, and a white building with a yellow dome on the right side. The house has a red roof and a small garden area in front of it. The white building has a yellow dome and is surrounded by greenery. The water around the island is calm and blue.",
+    "new_observation": "The island has a small yellow dome structure at its center, surrounded by lush greenery and a few buildings with red roofs. There is a pathway leading up to the dome from the mainland side of the island. No clear category-specific irregularity is visible in this crop.",
+    "new_vlm_invoked": true,
+    "new_vlm_error": null,
+    "human_review": "PENDING"
+  },
+  {
+    "sample": "sample_08",
+    "artifact": "Semantic inconsistency",
+    "verdict": "AI-generated",
+    "old_observation": "The main visible subject is a young girl with curly hair adorned with colorful flower crowns. In the close-up, her eyes are bright and she is smiling widely, showing her teeth. Her dress has a floral pattern with small flowers in pastel colors. The background shows a green field with trees in the distance.",
+    "new_observation": "The girl has curly hair adorned with colorful flower crowns. Her smile is bright and she appears to be enjoying herself outdoors. The background shows a green field with trees in the distance.",
+    "new_vlm_invoked": true,
+    "new_vlm_error": null,
+    "human_review": "PENDING"
+  },
+  {
+    "sample": "sample_09",
+    "artifact": "Semantic inconsistency",
+    "verdict": "Authentic",
+    "old_observation": "The main visible subject is a blue SUV parked on a grassy field. In the close-up, the SUV's front bumper has a small, barely noticeable scratch on its left side.",
+    "new_observation": "The SUV is parked on a grassy field with trees and greenery in the background. The car's front bumper and grille are prominently visible, along with the headlights and license plate. The SUV has a rugged appearance suitable for off-road conditions.",
+    "new_vlm_invoked": true,
+    "new_vlm_error": null,
+    "human_review": "PENDING"
+  }
+]

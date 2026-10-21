@@ -1,0 +1,11 @@
+CV AUTHENTICITY PREDICTION
+AI-generated (AI probability: 0.6555; threshold: 0.5141). This is a model prediction, not independent verification of image origin.
+
+STAGE 2 ARTIFACT SIGNAL
+Highest-scoring category: Semantic inconsistency. Category probability: 0.6582. Category flagged: True. Candidate evidence regions: 2.
+
+VLM VISUAL OBSERVATION (UNVERIFIED)
+The tree has a curved trunk and branches, with leaves in shades of green and yellow. The sky is clear blue, and there are mountains in the background. The ground is covered with rocks and some grassy patches.
+
+EVIDENCE LIMITATIONS
+Artifact scores and highlighted regions are model estimates, not verified defects. Any VLM observation requires visual review. Neither an artifact prediction nor its explanation establishes image origin.

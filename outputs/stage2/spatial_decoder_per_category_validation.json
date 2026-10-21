@@ -1,0 +1,118 @@
+{
+  "Original BCE": {
+    "low-level-edge_shape": {
+      "positive_validation_images": 91,
+      "positive_patch_fraction": 0.145075421472937,
+      "spatial_ap": 0.16133713243988593,
+      "present_artifact_ap": 0.304769771702565,
+      "pointing_accuracy": 0.3956043956043956,
+      "artifact_f1_at_0_5": 0.8235294117647058
+    },
+    "low-level-texture": {
+      "positive_validation_images": 43,
+      "positive_patch_fraction": 0.054865424430641824,
+      "spatial_ap": 0.06628721363516335,
+      "present_artifact_ap": 0.23158228542511874,
+      "pointing_accuracy": 0.2558139534883721,
+      "artifact_f1_at_0_5": 0.4329896907216495
+    },
+    "low-level-color": {
+      "positive_validation_images": 7,
+      "positive_patch_fraction": 0.014899438036084,
+      "spatial_ap": 0.012465282158270013,
+      "present_artifact_ap": 0.289852115396285,
+      "pointing_accuracy": 0.5714285714285714,
+      "artifact_f1_at_0_5": 0.1875
+    },
+    "low-level-symbol": {
+      "positive_validation_images": 32,
+      "positive_patch_fraction": 0.026471458148476783,
+      "spatial_ap": 0.03547774609142791,
+      "present_artifact_ap": 0.17104356980558222,
+      "pointing_accuracy": 0.1875,
+      "artifact_f1_at_0_5": 0.7123287671232876
+    },
+    "high-level-semantics": {
+      "positive_validation_images": 67,
+      "positive_patch_fraction": 0.08488612836438923,
+      "spatial_ap": 0.10481102563948164,
+      "present_artifact_ap": 0.25540316228647303,
+      "pointing_accuracy": 0.29850746268656714,
+      "artifact_f1_at_0_5": 0.47863247863247865
+    },
+    "cognitive-level-commonsense": {
+      "positive_validation_images": 13,
+      "positive_patch_fraction": 0.008429458740017746,
+      "spatial_ap": 0.010942122290591584,
+      "present_artifact_ap": 0.14703878038984655,
+      "pointing_accuracy": 0.07692307692307693,
+      "artifact_f1_at_0_5": 0.18181818181818182
+    },
+    "cognitive-level-physics": {
+      "positive_validation_images": 9,
+      "positive_patch_fraction": 0.005619639160011831,
+      "spatial_ap": 0.007465180331960874,
+      "present_artifact_ap": 0.1666120110890378,
+      "pointing_accuracy": 0.2222222222222222,
+      "artifact_f1_at_0_5": 0.20833333333333334
+    }
+  },
+  "Spatial decoder": {
+    "low-level-edge_shape": {
+      "positive_validation_images": 91,
+      "positive_patch_fraction": 0.145075421472937,
+      "spatial_ap": 0.32359461023258584,
+      "present_artifact_ap": 0.37907382851384774,
+      "pointing_accuracy": 0.3626373626373626,
+      "artifact_f1_at_0_5": 0.8173076923076923
+    },
+    "low-level-texture": {
+      "positive_validation_images": 43,
+      "positive_patch_fraction": 0.054865424430641824,
+      "spatial_ap": 0.07058900245594413,
+      "present_artifact_ap": 0.2312704590963866,
+      "pointing_accuracy": 0.16279069767441862,
+      "artifact_f1_at_0_5": 0.43478260869565216
+    },
+    "low-level-color": {
+      "positive_validation_images": 7,
+      "positive_patch_fraction": 0.014899438036084,
+      "spatial_ap": 0.013735323270134306,
+      "present_artifact_ap": 0.2731364985635914,
+      "pointing_accuracy": 0.0,
+      "artifact_f1_at_0_5": 0.2
+    },
+    "low-level-symbol": {
+      "positive_validation_images": 32,
+      "positive_patch_fraction": 0.026471458148476783,
+      "spatial_ap": 0.039014885023530246,
+      "present_artifact_ap": 0.15751139649194096,
+      "pointing_accuracy": 0.03125,
+      "artifact_f1_at_0_5": 0.7
+    },
+    "high-level-semantics": {
+      "positive_validation_images": 67,
+      "positive_patch_fraction": 0.08488612836438923,
+      "spatial_ap": 0.13806608467131065,
+      "present_artifact_ap": 0.2994962840161501,
+      "pointing_accuracy": 0.2537313432835821,
+      "artifact_f1_at_0_5": 0.4424778761061947
+    },
+    "cognitive-level-commonsense": {
+      "positive_validation_images": 13,
+      "positive_patch_fraction": 0.008429458740017746,
+      "spatial_ap": 0.00654231856269815,
+      "present_artifact_ap": 0.10634236825877724,
+      "pointing_accuracy": 0.0,
+      "artifact_f1_at_0_5": 0.15625
+    },
+    "cognitive-level-physics": {
+      "positive_validation_images": 9,
+      "positive_patch_fraction": 0.005619639160011831,
+      "spatial_ap": 0.00625662727245819,
+      "present_artifact_ap": 0.10919458383849871,
+      "pointing_accuracy": 0.0,
+      "artifact_f1_at_0_5": 0.16666666666666666
+    }
+  }
+}

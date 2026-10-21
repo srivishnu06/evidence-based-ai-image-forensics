@@ -1,0 +1,14 @@
+CV AUTHENTICITY PREDICTION
+Authentic (AI probability: 0.0784; threshold: 0.5141). This is a model prediction, not independent verification of image origin.
+
+STAGE 2 ARTIFACT SIGNAL
+Highest-scoring category: Symbol / text inconsistency. Category probability: 0.7368. Category flagged: False. Candidate evidence regions: 0.
+
+LOCALISATION WARNING
+The highest-scoring artifact does not have sufficient threshold-supported localised evidence. No VLM observation is presented as supporting evidence.
+
+EVIDENCE LIMITATIONS
+Artifact scores and highlighted regions are model estimates, not verified defects. Any VLM observation requires visual review. Neither an artifact prediction nor its explanation establishes image origin.
+
+EVIDENCE RELIABILITY (AUTOMATED, UNVERIFIED)
+The independent Stage 1 classifier predicts authentic with model score 0.0784 (threshold 0.5141). This is a prediction, not proven image origin. Stage 2's highest category score is Symbol / text inconsistency (0.7368; category threshold not passed). The corresponding spatial map peaks at 0.132, with 0 of 196 grid cells at or above its localisation cutoff 0.14, and 0 extracted candidate region(s). Evidence status: NO SUPPORTED CANDIDATE REGION. Neither grid activation nor Qwen agreement establishes a visible defect, and Stage 2 regions do not explain which pixels the independent Stage 1 classifier actually used.

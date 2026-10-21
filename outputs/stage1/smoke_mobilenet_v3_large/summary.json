@@ -1,0 +1,67 @@
+{
+  "run_name": "smoke_mobilenet_v3_large",
+  "model": "mobilenet_v3_large",
+  "dataset_id": "fa50f8f521e84d869134e01276c31843",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_fa50f8f521e84d869134e01276c31843",
+  "holdout_generators": [
+    "Midjourney",
+    "Wukong"
+  ],
+  "generator_mapping": {
+    "Real": 0,
+    "ADM": 1,
+    "BigGAN": 2,
+    "GLIDE": 3,
+    "Midjourney": 4,
+    "SD14": 5,
+    "SD15": 6,
+    "VQDM": 7,
+    "Wukong": 8
+  },
+  "train_samples": 1000,
+  "internal_val_samples": 300,
+  "best_epoch": 1,
+  "best_internal_val_auroc": 0.5153371428571429,
+  "best_threshold": 0.34192121028900146,
+  "best_internal_val_metrics": {
+    "threshold": 0.34192121028900146,
+    "support": 300,
+    "positives": 125,
+    "negatives": 175,
+    "accuracy": 0.4766666666666667,
+    "balanced_accuracy": 0.548,
+    "precision": 0.4420289855072464,
+    "recall": 0.976,
+    "sensitivity": 0.976,
+    "specificity": 0.12,
+    "npv": 0.875,
+    "f1": 0.6084788029925187,
+    "mcc": 0.1744556751977294,
+    "false_positive_rate": 0.88,
+    "false_negative_rate": 0.024,
+    "brier_score": 0.2448443606148923,
+    "log_loss": 0.6824186264883831,
+    "tn": 21,
+    "fp": 154,
+    "fn": 3,
+    "tp": 122,
+    "confusion_matrix": [
+      [
+        21,
+        154
+      ],
+      [
+        3,
+        122
+      ]
+    ],
+    "auroc": 0.5153371428571429,
+    "average_precision": 0.41458572326470605,
+    "loss": 0.6824186396598816
+  },
+  "parameters": 4204594,
+  "trainable_parameters": 4204594,
+  "single_image_inference_ms": 5.090264800001023,
+  "peak_gpu_memory_gb": 0.7664971351623535,
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/smoke_mobilenet_v3_large.pt"
+}

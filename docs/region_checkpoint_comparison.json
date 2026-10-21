@@ -1,0 +1,41 @@
+{
+  "Previous spatial decoder": {
+    "best_epoch": 11,
+    "global_spatial_ap": 0.19528833454878658,
+    "present_artifact_ap": 0.2817714556663537,
+    "pointing_accuracy": 0.22137404580152673,
+    "artifact_macro_f1": 0.41678354911088655,
+    "all_map_precision_at_0_1": 0.1966230337696623,
+    "all_map_recall_at_0_1": 0.38846028468977506,
+    "all_map_f1_at_0_1": 0.2610918385977725,
+    "all_map_iou_at_0_1": 0.1501469970600588,
+    "foreground_fraction_at_0_1": 0.09603033760087885,
+    "ground_truth_fraction": 0.0486067097646512
+  },
+  "Region model - best loss": {
+    "best_epoch": 11,
+    "global_spatial_ap": 0.19937118671831394,
+    "present_artifact_ap": 0.336689817772998,
+    "pointing_accuracy": 0.3244274809160305,
+    "artifact_macro_f1": 0.41810556570189045,
+    "all_map_precision_at_0_1": 0.1714752530485375,
+    "all_map_recall_at_0_1": 0.46756492448114745,
+    "all_map_f1_at_0_1": 0.2509257369449223,
+    "all_map_iou_at_0_1": 0.14346202573848102,
+    "foreground_fraction_at_0_1": 0.1325368656779482,
+    "ground_truth_fraction": 0.0486067097646512
+  },
+  "Region model - best spatial AP": {
+    "best_epoch": 21,
+    "global_spatial_ap": 0.2257163422552029,
+    "present_artifact_ap": 0.3706375803833034,
+    "pointing_accuracy": 0.40458015267175573,
+    "artifact_macro_f1": 0.4449381677069454,
+    "all_map_precision_at_0_1": 0.19429188799855945,
+    "all_map_recall_at_0_1": 0.46897750733456484,
+    "all_map_f1_at_0_1": 0.27475570550975587,
+    "all_map_iou_at_0_1": 0.15925611601047931,
+    "foreground_fraction_at_0_1": 0.11732581231250264,
+    "ground_truth_fraction": 0.0486067097646512
+  }
+}

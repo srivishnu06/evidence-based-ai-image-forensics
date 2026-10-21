@@ -1,0 +1,26 @@
+[
+  {
+    "image_index": 17,
+    "cv_verdict": "AI-generated",
+    "ai_probability": 0.9669132828712463,
+    "artifact_category": "Edge / shape inconsistency",
+    "artifact_probability": 0.9620969295501709,
+    "evidence_regions": 1,
+    "vlm_invoked": true,
+    "vlm_observation": "The statue of Buddha appears to be missing its head.",
+    "execution_seconds": 3.685,
+    "human_review_required": true
+  },
+  {
+    "image_index": 0,
+    "cv_verdict": "Authentic",
+    "ai_probability": 0.07837976515293121,
+    "artifact_category": "Symbol / text inconsistency",
+    "artifact_probability": 0.7367660999298096,
+    "evidence_regions": 0,
+    "vlm_invoked": false,
+    "vlm_observation": null,
+    "execution_seconds": 0.08,
+    "human_review_required": true
+  }
+]

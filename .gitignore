@@ -1,0 +1,67 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+venv/
+
+data/*
+!data/README.md
+
+.cache/
+huggingface/
+wandb/
+
+# Generated dependencies and caches
+node_modules/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Temporary project archives
+*.zip
+*.tar
+*.tgz
+*.bak
+/report_archive/
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+.clearml.conf
+credentials
+
+# Old Streamlit application
+/demo_app.py
+/app/
+
+# Runtime-generated API files
+/outputs/api/
+
+# Keep one README at the root
+**/README.md
+!/README.md
+
+# Keep only the main README
+README*
+!/README.md
+
+# Exclude old handover and backup files
+requirements.before_*
+*.before_*
+report_archive/
+*.zip
+*.tar
+*.tgz
+
+# Exclude generated frontend dependencies
+node_modules/
+
+# Exclude Streamlit
+demo_app.py
+app/

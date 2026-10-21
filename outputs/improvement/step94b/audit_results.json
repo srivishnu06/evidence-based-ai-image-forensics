@@ -1,0 +1,122 @@
+[
+  {
+    "sample": "sample_01",
+    "validation_index": 0,
+    "verdict": "Authentic",
+    "ai_score": 0.07837976515293121,
+    "artifact": "Symbol / text inconsistency",
+    "artifact_score": 0.7367660999298096,
+    "regions": 0,
+    "vlm_invoked": false,
+    "vlm_observation": "",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_02",
+    "validation_index": 15,
+    "verdict": "AI-generated",
+    "ai_score": 0.8774754405021667,
+    "artifact": "Edge / shape inconsistency",
+    "artifact_score": 0.6973617672920227,
+    "regions": 2,
+    "vlm_invoked": true,
+    "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nNo dependable visual description was produced by Qwen for this input. Its raw output was withheld because it failed a basic format-quality check. This does not determine whether the candidate artifact is genuine.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Edge / shape inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_03",
+    "validation_index": 30,
+    "verdict": "AI-generated",
+    "ai_score": 0.974910318851471,
+    "artifact": "Edge / shape inconsistency",
+    "artifact_score": 0.9532402753829956,
+    "regions": 1,
+    "vlm_invoked": true,
+    "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nThe main visible subject is a grand, classical-style building with intricate architectural details. In the close-up, one can see detailed carvings on the columns and pediments, as well as ornate decorations at the top of the building. The columns have decorative capitals and the pediments feature intricate designs. The windows have arched frames and the building has a symmetrical facade.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Edge / shape inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_04",
+    "validation_index": 45,
+    "verdict": "AI-generated",
+    "ai_score": 0.6998304724693298,
+    "artifact": "Edge / shape inconsistency",
+    "artifact_score": 0.9493788480758667,
+    "regions": 1,
+    "vlm_invoked": true,
+    "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nThe main visible subject is a red and white truck driving on a road. In the close-up, the truck's front grille has a small red emblem in the center. The truck's side features a series of blue and red stripes along its length. The wheels are large and black with blue hubcaps.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Edge / shape inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_05",
+    "validation_index": 60,
+    "verdict": "Authentic",
+    "ai_score": 0.02666635811328888,
+    "artifact": "Edge / shape inconsistency",
+    "artifact_score": 0.9327492713928223,
+    "regions": 1,
+    "vlm_invoked": true,
+    "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nThe main visible subject in both images is a long corridor lined with golden statues of Buddha. In the close-up, one can see intricate details such as the seated posture of the statues, the polished gold color, and the ornate on the ceiling. The floor is also reflective, adding to the grandeur of the setting.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Edge / shape inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_06",
+    "validation_index": 76,
+    "verdict": "AI-generated",
+    "ai_score": 0.9662156701087952,
+    "artifact": "Symbol / text inconsistency",
+    "artifact_score": 0.9923796653747559,
+    "regions": 1,
+    "vlm_invoked": true,
+    "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nThe main visible subject is a red storefront with large yellow letters spelling \"Chi pizza.\" Two concrete details in the close-up are the red awning above the entrance door and the window display inside the store.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Symbol / text inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_07",
+    "validation_index": 91,
+    "verdict": "AI-generated",
+    "ai_score": 0.6906827092170715,
+    "artifact": "Edge / shape inconsistency",
+    "artifact_score": 0.8072777390480042,
+    "regions": 1,
+    "vlm_invoked": true,
+    "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nThe main visible subject is a small island with a yellow dome structure on it, surrounded by water. In the close-up, there is a house with a red roof on the left side of the island, and a white building with a yellow dome on the right side. The house has a red roof and a small garden area in front of it. The white building has a yellow dome and is surrounded by greenery. The water around the island is calm and blue.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Edge / shape inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_08",
+    "validation_index": 106,
+    "verdict": "AI-generated",
+    "ai_score": 0.9203459024429321,
+    "artifact": "Semantic inconsistency",
+    "artifact_score": 0.5047399401664734,
+    "regions": 2,
+    "vlm_invoked": true,
+    "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nThe main visible subject is a young girl with curly hair adorned with colorful flower crowns. In the close-up, her eyes are bright and she is smiling widely, showing her teeth. Her dress has a floral pattern with small flowers in pastel colors. The background shows a green field with trees in the distance.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Semantic inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_09",
+    "validation_index": 121,
+    "verdict": "Authentic",
+    "ai_score": 0.2091372162103653,
+    "artifact": "Semantic inconsistency",
+    "artifact_score": 0.7140156626701355,
+    "regions": 1,
+    "vlm_invoked": true,
+    "vlm_observation": "QWEN VISUAL OBSERVATION \u2014 EXPERIMENTAL, NOT VERIFIED\nThe main visible subject is a blue SUV parked on a grassy field. In the close-up, the SUV's front bumper has a small, barely noticeable scratch on its left side.\n\nSTAGE 2 MODEL SUGGESTION\nThe separate evidence model proposed: Semantic inconsistency. This category is a prediction and is not a fact established by Qwen.\n\nEVIDENCE STATUS\nUnverified candidate. The visual description above has not been independently checked, and it may contain mistakes. No observable inconsistency should be treated as confirmed without comparison to the original image and an appropriate ground-truth or human annotation. The VLM cannot validate image origin or change the independent Stage 1 authenticity result.",
+    "human_review": "UNREVIEWED"
+  },
+  {
+    "sample": "sample_10",
+    "validation_index": 137,
+    "verdict": "Authentic",
+    "ai_score": 0.4262951910495758,
+    "artifact": "Symbol / text inconsistency",
+    "artifact_score": 0.9493783116340637,
+    "regions": 0,
+    "vlm_invoked": false,
+    "vlm_observation": "",
+    "human_review": "UNREVIEWED"
+  }
+]

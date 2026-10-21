@@ -1,0 +1,67 @@
+{
+  "run_name": "smoke_resnet18",
+  "model": "resnet18",
+  "dataset_id": "fa50f8f521e84d869134e01276c31843",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_fa50f8f521e84d869134e01276c31843",
+  "holdout_generators": [
+    "Midjourney",
+    "Wukong"
+  ],
+  "generator_mapping": {
+    "Real": 0,
+    "ADM": 1,
+    "BigGAN": 2,
+    "GLIDE": 3,
+    "Midjourney": 4,
+    "SD14": 5,
+    "SD15": 6,
+    "VQDM": 7,
+    "Wukong": 8
+  },
+  "train_samples": 1000,
+  "internal_val_samples": 300,
+  "best_epoch": 1,
+  "best_internal_val_auroc": 0.6936228571428571,
+  "best_threshold": 0.2543398439884186,
+  "best_internal_val_metrics": {
+    "threshold": 0.2543398439884186,
+    "support": 300,
+    "positives": 125,
+    "negatives": 175,
+    "accuracy": 0.63,
+    "balanced_accuracy": 0.6622857142857143,
+    "precision": 0.535,
+    "recall": 0.856,
+    "sensitivity": 0.856,
+    "specificity": 0.4685714285714286,
+    "npv": 0.82,
+    "f1": 0.6584615384615384,
+    "mcc": 0.3394449250509678,
+    "false_positive_rate": 0.5314285714285715,
+    "false_negative_rate": 0.144,
+    "brier_score": 0.22455231050885704,
+    "log_loss": 0.6378193066175495,
+    "tn": 82,
+    "fp": 93,
+    "fn": 18,
+    "tp": 107,
+    "confusion_matrix": [
+      [
+        82,
+        93
+      ],
+      [
+        18,
+        107
+      ]
+    ],
+    "auroc": 0.6936228571428571,
+    "average_precision": 0.5831279267877499,
+    "loss": 0.6378193179766337
+  },
+  "parameters": 11177538,
+  "trainable_parameters": 11177538,
+  "single_image_inference_ms": 1.9603679299962096,
+  "peak_gpu_memory_gb": 0.5597629547119141,
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/smoke_resnet18.pt"
+}

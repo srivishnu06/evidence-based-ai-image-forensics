@@ -1,0 +1,20 @@
+{
+  "validation_image": 5,
+  "cv_artifact": "Symbol / text inconsistency",
+  "cv_artifact_probability": 0.924201250076294,
+  "crop_peaks": [
+    {
+      "row": 12,
+      "col": 3,
+      "probability": 0.5986577272415161
+    },
+    {
+      "row": 1,
+      "col": 6,
+      "probability": 0.5578548312187195
+    }
+  ],
+  "vlm_observation": "Crop 1: The letters are clearly readable and there are no unusual shapes or character sequences.\n\nCrop 2: The letters are clear and there are no unusual shapes or character sequences.",
+  "generation_seconds": 4.732445388000087,
+  "human_review_required": true
+}

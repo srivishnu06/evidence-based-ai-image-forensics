@@ -1,0 +1,12 @@
+{
+  "experiment": "Artifact loss weight 1.5",
+  "baseline_checkpoint": "checkpoints/deit_region_calibrated.pt",
+  "candidate_checkpoint": "checkpoints/deit_region_artifact15_v1_best_spatial_ap.pt",
+  "baseline_spatial_ap": 0.2257163422552029,
+  "candidate_spatial_ap": 0.21671951493575742,
+  "absolute_spatial_ap_difference": -0.008996827319445483,
+  "candidate_best_spatial_epoch": 15,
+  "candidate_best_loss_epoch": 10,
+  "decision": "Keep baseline provisionally",
+  "note": "Candidate spatial AP is lower. Other metrics require comparison using the same evaluator, split and thresholds. Internal validation was used for model selection."
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "validation_index": 5,
+    "stage1_verdict": "Authentic",
+    "stage1_ai_probability": 0.023071277886629105,
+    "artifact_category": "Symbol / text inconsistency",
+    "artifact_probability": 0.924201250076294,
+    "artifact_flagged": true,
+    "evidence_regions": 1,
+    "vlm_invoked": true,
+    "vlm_observation": "The text \"\u0412\u043d\u0430 \u043e \u0420\u043d\u0430 \u0413\u0430 2 \u0420\u043c \u043d\u0435 \u0435\" appears to be inconsistent with the rest of the image, as it does not match the theme of the running athletes.",
+    "execution_seconds": 6.476741168999979,
+    "human_review_required": true
+  },
+  {
+    "validation_index": 0,
+    "stage1_verdict": "Authentic",
+    "stage1_ai_probability": 0.07837976515293121,
+    "artifact_category": "Symbol / text inconsistency",
+    "artifact_probability": 0.7367660999298096,
+    "artifact_flagged": false,
+    "evidence_regions": 0,
+    "vlm_invoked": false,
+    "vlm_observation": null,
+    "execution_seconds": 0.08726763000049687,
+    "human_review_required": true
+  }
+]

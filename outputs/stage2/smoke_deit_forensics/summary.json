@@ -1,0 +1,136 @@
+{
+  "run_name": "smoke_deit_forensics",
+  "dataset_id": "e89e43f6109e4020aac0952af699531b",
+  "dataset_root": "/home/sagemaker-user/.clearml/cache/storage_manager/datasets/ds_e89e43f6109e4020aac0952af699531b",
+  "split_method": "uid_group_shuffle_balanced",
+  "train_samples": 780,
+  "internal_val_samples": 138,
+  "best_epoch": 1,
+  "best_val_loss": 1.4305229083351467,
+  "artifact_thresholds": [
+    0.46606776118278503,
+    0.2419690489768982,
+    0.25812792778015137,
+    0.4180195927619934,
+    0.12405844777822495,
+    0.29918038845062256,
+    0.48459672927856445
+  ],
+  "localization_threshold": 0.1,
+  "tuned_artifact_metrics": {
+    "thresholds": [
+      0.46606776118278503,
+      0.2419690489768982,
+      0.25812792778015137,
+      0.4180195927619934,
+      0.12405844777822495,
+      0.29918038845062256,
+      0.48459672927856445
+    ],
+    "macro_precision": 0.2820997925915831,
+    "macro_recall": 0.9637896825396826,
+    "macro_f1": 0.3980903820961718,
+    "micro_precision": 0.29465301478953354,
+    "micro_recall": 0.9885496183206107,
+    "micro_f1": 0.4539877300613497,
+    "weighted_precision": 0.449942543502884,
+    "weighted_recall": 0.9885496183206107,
+    "weighted_f1": 0.5930075445076867,
+    "exact_match_accuracy": 0.0,
+    "hamming_loss": 0.644927536231884,
+    "per_class_precision": [
+      0.6594202898550725,
+      0.3161764705882353,
+      0.05185185185185185,
+      0.27927927927927926,
+      0.49264705882352944,
+      0.09923664122137404,
+      0.07608695652173914
+    ],
+    "per_class_recall": [
+      1.0,
+      1.0,
+      1.0,
+      0.96875,
+      1.0,
+      1.0,
+      0.7777777777777778
+    ],
+    "per_class_f1": [
+      0.7947598253275109,
+      0.48044692737430167,
+      0.09859154929577464,
+      0.43356643356643354,
+      0.6600985221674877,
+      0.18055555555555555,
+      0.13861386138613863
+    ],
+    "per_class_support": [
+      91,
+      43,
+      7,
+      32,
+      67,
+      13,
+      9
+    ],
+    "map_macro": 0.2834099260100972,
+    "map_micro": 0.39650649666266236,
+    "map_weighted": 0.45790703865111737
+  },
+  "tuned_localization_metrics": {
+    "threshold": 0.1,
+    "mean_iou": 0.17801670809385825,
+    "mean_pixel_precision": 0.17914002158758427,
+    "mean_pixel_recall": 0.9799547617952733,
+    "mean_pixel_f1": 0.27056199656788027,
+    "pointing_accuracy": 0.23282442748091603,
+    "evaluated_artifact_instances": 262,
+    "per_class": [
+      {
+        "evaluated_instances": 91,
+        "mean_iou": 0.21899756979506985,
+        "mean_pixel_f1": 0.32039151233203617,
+        "pointing_accuracy": 0.26373626373626374
+      },
+      {
+        "evaluated_instances": 43,
+        "mean_iou": 0.175273052317164,
+        "mean_pixel_f1": 0.2734295351151546,
+        "pointing_accuracy": 0.2558139534883721
+      },
+      {
+        "evaluated_instances": 7,
+        "mean_iou": 0.2781037491019137,
+        "mean_pixel_f1": 0.3962804543862083,
+        "pointing_accuracy": 0.42857142857142855
+      },
+      {
+        "evaluated_instances": 32,
+        "mean_iou": 0.11127682798238504,
+        "mean_pixel_f1": 0.18387153674495804,
+        "pointing_accuracy": 0.03125
+      },
+      {
+        "evaluated_instances": 67,
+        "mean_iou": 0.17399571432623065,
+        "mean_pixel_f1": 0.26581442512747433,
+        "pointing_accuracy": 0.29850746268656714
+      },
+      {
+        "evaluated_instances": 13,
+        "mean_iou": 0.09101377982792737,
+        "mean_pixel_f1": 0.1594123019344797,
+        "pointing_accuracy": 0.07692307692307693
+      },
+      {
+        "evaluated_instances": 9,
+        "mean_iou": 0.0918200758701358,
+        "mean_pixel_f1": 0.15937407815406213,
+        "pointing_accuracy": 0.1111111111111111
+      }
+    ]
+  },
+  "peak_gpu_memory_gb": 0.11346292495727539,
+  "checkpoint": "/home/sagemaker-user/ai_image_forensics_improved/checkpoints/smoke_deit_forensics.pt"
+}

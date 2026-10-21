@@ -1,0 +1,12 @@
+=== STRUCTURED CV EVIDENCE ===
+Stage 1 authenticity prediction: Authentic.
+AI-generated probability: 0.0231.
+Authenticity decision threshold: 0.5141.
+Stage 2 strongest predicted artifact: Symbol / text inconsistency.
+Artifact classification probability: 0.9242.
+Evidence localisation threshold: 0.14.
+Extracted evidence regions: 1.
+Red highlighting indicates model-estimated evidence, not verified proof. Describe a visual inconsistency only if visible and supported. Do not claim the image is AI-generated when the detector predicts authentic. If findings conflict, clearly communicate uncertainty.
+
+=== QWEN EXPLANATION ===
+The image depicts two athletes running on a track with a stadium in the background. The athlete on the in red color is leading the athlete in blue color. The athlete in red color is leading the athlete in blue color.

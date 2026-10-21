@@ -1,0 +1,8 @@
+artifact,display_name,threshold,support,precision,recall,f1,evaluated_instances,mean_iou,mean_pixel_f1,pointing_accuracy
+low-level-edge_shape,Edge / shape inconsistency,0.5299999999999999,8,0.8,1.0,0.8888888888888888,8,0.30449183242988387,0.4104448050889499,0.625
+low-level-texture,Texture inconsistency,0.15999999999999998,5,0.4166666666666667,1.0,0.5882352941176471,5,0.10713254998969284,0.16492466637968145,0.2
+low-level-color,Colour inconsistency,0.5299999999999999,2,0.0,0.0,0.0,2,0.0,0.0,0.0
+low-level-symbol,Symbol / text inconsistency,0.82,5,1.0,0.2,0.3333333333333333,5,0.06396825396825397,0.10995670995670996,0.2
+high-level-semantics,Semantic inconsistency,0.13,2,0.16666666666666666,1.0,0.2857142857142857,2,0.05148176291793313,0.09597523219814241,0.0
+cognitive-level-commonsense,Commonsense violation,0.57,1,0.0,0.0,0.0,1,0.0,0.0,1.0
+cognitive-level-physics,Physics violation,0.19999999999999996,1,0.1111111111111111,1.0,0.2,1,0.0,0.0,0.0

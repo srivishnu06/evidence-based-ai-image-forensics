@@ -1,0 +1,13 @@
+{
+  "stage1_checkpoint": "deit_tiny_detector.pt",
+  "stage2_checkpoint": "deit_region_calibrated.pt",
+  "stage1_model_type": "deit_tiny",
+  "stage2_model_type": "deit_forensics_spatial",
+  "ai_score": 0.9669132828712463,
+  "artifact_score": 0.9620969295501709,
+  "verdict": "AI-generated",
+  "vlm_invoked": true,
+  "vlm_error": null,
+  "evidence_images_verified": true,
+  "report_verified": true
+}

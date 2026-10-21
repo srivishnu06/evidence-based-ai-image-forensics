@@ -1,0 +1,8 @@
+{
+  "validation_index": 5,
+  "cv_verdict": "Authentic",
+  "artifact_category": "Symbol / text inconsistency",
+  "vlm_observation": "The text appears to be consistent and there are no obvious inconsistencies between the original and the highlighted areas.",
+  "generation_seconds": 5.2391715989997465,
+  "human_review_required": true
+}
